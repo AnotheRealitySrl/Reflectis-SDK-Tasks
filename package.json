@@ -1,0 +1,15 @@
+{
+  "name": "com.anotherealitysrl.spacs-tasks",
+  "displayName": "SPACS-Tasks",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "description": "SPACS Tasks module",
+  "keywords": [
+    "unity"
+  ],
+  "category": "Unity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnotheRealitySrl/SPACS-Tasks"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "com.anotherealitysrl.spacs-tasks",
   "displayName": "SPACS-Tasks",
   "version": "0.0.1",
-  "unity": "2020.3",
+  "unity": "2020.1",
   "description": "SPACS Tasks module",
   "keywords": [
     "unity"

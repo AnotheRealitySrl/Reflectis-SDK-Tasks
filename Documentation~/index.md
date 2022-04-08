@@ -2,12 +2,20 @@
 
 ## How to install
 
-Before installing this package, import the following dependencies through Unity Package Manager:
+### Using Unity Package Manager
 
-- `https://github.com/AnotheRealitySrl/SPACS-Tasks.git`
+Import from Git URL with Unity Package Manager: `https://github.com/AnotheRealitySrl/SPACS-Tasks.git`
 
-In alternative, add to the manifest.json the following dependencies:
+The following dependencies need to be imported as well:
+
+- `https://github.com/AnotheRealitySrl/SPACS-Utilities.git`
+- `https://github.com/AnotheRealitySrl/SPACS-Graphs.git`
+
+### Edit project manifest
+
+In alternative of using Unity Package Manager, add to the manifest.json the following dependencies:
 
 ```
-"com.anotherealitysrl.spacs-tasks": "https://github.com/AnotheRealitySrl/SPACS-Tasks.git",
+"com.anotherealitysrl.spacs-utilities": "https://github.com/AnotheRealitySrl/SPACS-Utilities.git",
+"com.anotherealitysrl.spacs-graphs": "https://github.com/AnotheRealitySrl/SPACS-Graphs.git"
 ```

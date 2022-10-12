@@ -196,7 +196,7 @@ namespace SPACS.Tasks.UI
                 .Where(t => t.Status == TaskNode.TaskStatus.Completed)
                 .Count() + 1;
             stepIndexLabel.text = stepIndex.ToString().PadLeft(2, '0');
-            totalTasksCountLabel.text = stepsTasks.Count().ToString();
+            totalTasksCountLabel.text = stepsTasks.Count().ToString().PadLeft(2, '0');
         }
 
         ///////////////////////////////////////////////////////////////////////////

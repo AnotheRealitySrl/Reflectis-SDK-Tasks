@@ -194,10 +194,34 @@ MonoBehaviour:
       m_Calls: []
   onTaskUnlocked:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6172598777901514764}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTaskCompleted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3428199251840449062}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &5024027758725945694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,8 +308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7684114691867437581, guid: 3e185fca2767ad546bc856bee98aef81,
-    type: 3}
+  m_Sprite: {fileID: -7684114691867437581, guid: 3e185fca2767ad546bc856bee98aef81, type: 3}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -361,8 +384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7684114691867437581, guid: 3e185fca2767ad546bc856bee98aef81,
-    type: 3}
+  m_Sprite: {fileID: -7684114691867437581, guid: 3e185fca2767ad546bc856bee98aef81, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

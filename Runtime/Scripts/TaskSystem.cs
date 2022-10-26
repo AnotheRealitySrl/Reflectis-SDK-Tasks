@@ -30,6 +30,8 @@ namespace SPACS.Tasks
         [SerializeField, Tooltip("Invoked when the last task of the task system changes to completed")]
         public UnityEvent lastTaskCompleted = default;
 
+        public delegate void TaskCompleted(TaskNode node);
+        public event TaskCompleted OnTaskCompleted;
 
         private IGraph graph = null;
         private bool isPrepared = false;
@@ -115,6 +117,8 @@ namespace SPACS.Tasks
             // Has the task been completed?
             if (task.Status == TaskStatus.Completed)
             {
+                OnTaskCompleted?.Invoke(task);
+
                     // Unlock the next task (if it exists)
                     TaskNode nextTask = task.Next;
                     if (nextTask != null && nextTask.Status == TaskStatus.Locked)

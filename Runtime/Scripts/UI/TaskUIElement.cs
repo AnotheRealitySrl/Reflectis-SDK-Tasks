@@ -14,6 +14,14 @@ namespace SPACS.Tasks.UI
         [SerializeField]
         private TMP_Text taskName = default;
 
+        [Header("Settings")]
+        [SerializeField]
+        private Color lockedColor;
+        [SerializeField]
+        private Color toDoColor;
+        [SerializeField]
+        private Color completedColor;
+
         [Header("Events")]
         [SerializeField]
         private UnityEvent onTaskLocked = default;
@@ -42,12 +50,15 @@ namespace SPACS.Tasks.UI
                 switch (task.Status)
                 {
                     case TaskNode.TaskStatus.Locked:
+                        taskName.color = lockedColor;
                         onTaskLocked.Invoke();
                         break;
                     case TaskNode.TaskStatus.Todo:
+                        taskName.color = toDoColor;
                         onTaskUnlocked.Invoke();
                         break;
                     case TaskNode.TaskStatus.Completed:
+                        taskName.color = completedColor;
                         onTaskCompleted.Invoke();
                         break;
                 }

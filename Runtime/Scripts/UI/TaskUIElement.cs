@@ -1,6 +1,8 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.TextCore.Text;
+using FontStyles = TMPro.FontStyles;
 
 namespace SPACS.Tasks.UI
 {
@@ -16,11 +18,11 @@ namespace SPACS.Tasks.UI
 
         [Header("Settings")]
         [SerializeField]
-        private Color lockedColor;
+        private TextSettings lockedSettings;
         [SerializeField]
-        private Color toDoColor;
+        private TextSettings toDoSettings;
         [SerializeField]
-        private Color completedColor;
+        private TextSettings completedSettings;
 
         [Header("Events")]
         [SerializeField]
@@ -31,6 +33,25 @@ namespace SPACS.Tasks.UI
 
         [SerializeField]
         private UnityEvent onTaskCompleted = default;
+
+        [System.Serializable]
+        public class TextSettings
+        {
+            public int fontSize;
+            public Color textColor;
+            public FontStyles fontStyle;
+            public TextAlignmentOptions alignmentOptions;
+            public TMP_FontAsset font;
+
+            public void SetText(TMP_Text text)
+            {
+                text.fontSize = fontSize;
+                text.color = textColor;
+                text.fontStyle = fontStyle;
+                text.alignment = alignmentOptions;
+                text.font = font;
+            }
+        }
 
 
         ///////////////////////////////////////////////////////////////////////////
@@ -50,15 +71,15 @@ namespace SPACS.Tasks.UI
                 switch (task.Status)
                 {
                     case TaskNode.TaskStatus.Locked:
-                        taskName.color = lockedColor;
+                        lockedSettings.SetText(taskName);
                         onTaskLocked.Invoke();
                         break;
                     case TaskNode.TaskStatus.Todo:
-                        taskName.color = toDoColor;
+                        toDoSettings.SetText(taskName);
                         onTaskUnlocked.Invoke();
                         break;
                     case TaskNode.TaskStatus.Completed:
-                        taskName.color = completedColor;
+                        completedSettings.SetText(taskName);
                         onTaskCompleted.Invoke();
                         break;
                 }

@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SPACS.Tasks.Controllers
+namespace SPACS.PLG.Tasks.Controllers
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

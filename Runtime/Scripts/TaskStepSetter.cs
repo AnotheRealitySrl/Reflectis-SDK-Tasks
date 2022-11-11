@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEditor;
 #endif
 
-namespace SPACS.Tasks
+namespace SPACS.PLG.Tasks
 {
     public class TaskStepSetter : MonoBehaviour
     {

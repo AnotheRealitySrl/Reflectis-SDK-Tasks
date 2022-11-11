@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace SPACS.Tasks.Controllers
+namespace SPACS.PLG.Tasks.Controllers
 {
     public class MeshSpawner : MonoBehaviour
     {

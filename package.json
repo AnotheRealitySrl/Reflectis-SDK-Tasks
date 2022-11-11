@@ -1,6 +1,6 @@
 {
-  "name": "com.anotherealitysrl.spacs-tasks",
-  "displayName": "SPACS-Tasks",
+  "name": "com.anotherealitysrl.spacs-plg-tasks",
+  "displayName": "SPACS-PLG-Tasks",
   "version": "1.0.0",
   "unity": "2020.1",
   "description": "SPACS Tasks module",

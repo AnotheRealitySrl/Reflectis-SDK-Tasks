@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-using SPACS.Graphs;
+using SPACS.PLG.Graphs;
 
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
 using UnityEngine.Video;
 
-namespace SPACS.Tasks
+namespace SPACS.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

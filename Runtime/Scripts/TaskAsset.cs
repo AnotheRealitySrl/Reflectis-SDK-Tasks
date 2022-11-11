@@ -1,6 +1,6 @@
-﻿using SPACS.Graphs;
+﻿using SPACS.PLG.Graphs;
 
-namespace SPACS.Tasks
+namespace SPACS.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

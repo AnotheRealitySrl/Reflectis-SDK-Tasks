@@ -1,12 +1,12 @@
 using UnityEngine;
 
-using SPACS.Tasks;
+using SPACS.PLG.Tasks;
 using System;
 using System.Linq;
-using static SPACS.Tasks.TaskNode;
+using static SPACS.PLG.Tasks.TaskNode;
 
 
-namespace SPACS.Tasks
+namespace SPACS.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

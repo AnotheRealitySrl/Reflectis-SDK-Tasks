@@ -5,10 +5,10 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-using SPACS.Graphs;
-using static SPACS.Tasks.TaskNode;
+using SPACS.PLG.Graphs;
+using static SPACS.PLG.Tasks.TaskNode;
 
-namespace SPACS.Tasks
+namespace SPACS.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

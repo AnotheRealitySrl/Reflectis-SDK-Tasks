@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SPACS.Tasks;
+using SPACS.PLG.Tasks;
 
 public class SetTaskStepSetterIndex : MonoBehaviour
 {

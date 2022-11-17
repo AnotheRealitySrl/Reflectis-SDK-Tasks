@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.59607846, b: 0.14509805, a: 1}
+  m_Color: {r: 0.65, g: 0.3889764, b: 0.09468503, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1600,7 +1600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.59607846, b: 0.14509805, a: 1}
+  m_Color: {r: 0.65, g: 0.3889764, b: 0.09468503, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1830,8 +1830,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289111718
+  m_fontColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2278,7 +2278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.63529414, b: 0.14509805, a: 0.2509804}
+  m_Color: {r: 0.65, g: 0.4145669, b: 0.09468503, a: 0.2509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2887,6 +2887,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 761644104909687412}
     m_Modifications:
+    - target: {fileID: 2412172046866268019, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412172046866268019, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5952631
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412172046866268019, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5336842
+      objectReference: {fileID: 0}
     - target: {fileID: 3219156325715061316, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
       propertyPath: m_Name
       value: TaskElementUI_1
@@ -2998,6 +3010,18 @@ PrefabInstance:
     - target: {fileID: 3219156325715061316, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
       propertyPath: m_Name
       value: TaskElementUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593716145687644942, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593716145687644942, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593716145687644942, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 5806740918270119854, guid: c1dadb72d2b2ff4418a02e09784c878e, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -75,7 +75,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289111718
   m_fontColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -199,7 +199,7 @@ MonoBehaviour:
     font: {fileID: 11400000, guid: bd56b603ef0dcc943ad46f3f89e62399, type: 2}
   toDoSettings:
     fontSize: 44
-    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     fontStyle: 0
     alignmentOptions: 513
     font: {fileID: 11400000, guid: b26151e5c193f8d4f974d4213ee9683d, type: 2}
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.5686275, b: 0.14509805, a: 1}
+  m_Color: {r: 0.65, g: 0.371063, b: 0.09468503, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.65, g: 0.65, b: 0.65, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

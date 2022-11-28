@@ -1,28 +1,31 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRPressButtonDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    public GameObject button;
-
-    public UnityEvent OnPressed;
-    public UnityEvent OnUnpressed;
-
-    protected void Init()
+    public class XRPressButtonDetector : XRDetector
     {
-        XRPressButtonDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRPressButtonDetector>())
+        public GameObject button;
+
+        public UnityEvent OnPressed;
+        public UnityEvent OnUnpressed;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRPressButtonDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRPressButtonDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+            button = genericDetector.button;
+            OnPressed = genericDetector.OnPressed;
+            OnUnpressed = genericDetector.OnUnpressed;
+            initialized = false;
+            Destroy(genericDetector);
         }
-        button = genericDetector.button;
-        OnPressed = genericDetector.OnPressed;
-        OnUnpressed = genericDetector.OnUnpressed;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

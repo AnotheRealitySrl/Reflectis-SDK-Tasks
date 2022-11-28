@@ -2,7 +2,7 @@ using UnityEngine;
 using SPACS.PLG.Tasks;
 using UnityEngine.Events;
 
-namespace SPACS.PLG.Tasks.Controllers
+namespace SPACS.PLG.Tasks.Detectors
 {
     /// <summary>
     /// Utility class listens and fires events related to a task

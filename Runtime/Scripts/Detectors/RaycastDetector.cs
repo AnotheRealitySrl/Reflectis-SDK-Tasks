@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SPACS.ComplexTasks
+namespace SPACS.PLG.Tasks.Detectors
 {
     ///////////////////////////////////////////////////////////////////////////
     public class RaycastDetector : MonoBehaviour

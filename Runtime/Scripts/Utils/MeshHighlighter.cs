@@ -3,46 +3,48 @@ using System.Linq;
 
 using UnityEngine;
 
-///////////////////////////////////////////////////////////////////////////
-public class MeshHighlighter : MonoBehaviour
+namespace SPACS.PLG.Tasks.Utils
 {
-    [SerializeField]
-    private Material highlightMaterial = default;
-    [SerializeField]
-    private bool includeParent = false;
-
-    ///////////////////////////////////////////////////////////////////////////
-    private void OnEnable()
+    public class MeshHighlighter : MonoBehaviour
     {
-        Highlight(true);
-    }
+        [SerializeField]
+        private Material highlightMaterial = default;
+        [SerializeField]
+        private bool includeParent = false;
 
-    ///////////////////////////////////////////////////////////////////////////
-    private void OnDisable()
-    {
-        Highlight(false);
-    }
-
-    ///////////////////////////////////////////////////////////////////////////
-    private void Highlight(bool enabled)
-    {
-        foreach (MeshRenderer meshRenderer in GetComponentsInChildren<MeshRenderer>(true))
+        ///////////////////////////////////////////////////////////////////////////
+        private void OnEnable()
         {
-            List<Material> materials = meshRenderer.sharedMaterials.ToList();
-            materials.Remove(highlightMaterial);
-            if (enabled)
-                materials.Add(highlightMaterial);
-            meshRenderer.sharedMaterials = materials.ToArray();
+            Highlight(true);
         }
 
-        if (includeParent)
+        ///////////////////////////////////////////////////////////////////////////
+        private void OnDisable()
         {
-            Renderer meshRenderer = GetComponent<Renderer>();
-            List<Material> materials = meshRenderer.sharedMaterials.ToList();
-            materials.Remove(highlightMaterial);
-            if (enabled)
-                materials.Add(highlightMaterial);
-            meshRenderer.sharedMaterials = materials.ToArray();
+            Highlight(false);
+        }
+
+        ///////////////////////////////////////////////////////////////////////////
+        private void Highlight(bool enabled)
+        {
+            foreach (MeshRenderer meshRenderer in GetComponentsInChildren<MeshRenderer>(true))
+            {
+                List<Material> materials = meshRenderer.sharedMaterials.ToList();
+                materials.Remove(highlightMaterial);
+                if (enabled)
+                    materials.Add(highlightMaterial);
+                meshRenderer.sharedMaterials = materials.ToArray();
+            }
+
+            if (includeParent)
+            {
+                Renderer meshRenderer = GetComponent<Renderer>();
+                List<Material> materials = meshRenderer.sharedMaterials.ToList();
+                materials.Remove(highlightMaterial);
+                if (enabled)
+                    materials.Add(highlightMaterial);
+                meshRenderer.sharedMaterials = materials.ToArray();
+            }
         }
     }
 }

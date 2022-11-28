@@ -1,34 +1,37 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRPlaceDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    [Header("References")]
-    public GameObject placePoint = default;
-
-    public GameObject grabbable = default;
-
-    [Header("Events")]
-    public UnityEvent OnPlace = default;
-
-    public UnityEvent OnRemove = default;
-
-    protected void Init()
+    public class XRPlaceDetector : XRDetector
     {
-        XRPlaceDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRPlaceDetector>())
+        [Header("References")]
+        public GameObject placePoint = default;
+
+        public GameObject grabbable = default;
+
+        [Header("Events")]
+        public UnityEvent OnPlace = default;
+
+        public UnityEvent OnRemove = default;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRPlaceDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRPlaceDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+            placePoint = genericDetector.placePoint;
+            grabbable = genericDetector.grabbable;
+            OnPlace = genericDetector.OnPlace;
+            OnRemove = genericDetector.OnRemove;
+            initialized = false;
+            Destroy(genericDetector);
         }
-        placePoint = genericDetector.placePoint;
-        grabbable = genericDetector.grabbable;
-        OnPlace = genericDetector.OnPlace;
-        OnRemove = genericDetector.OnRemove;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

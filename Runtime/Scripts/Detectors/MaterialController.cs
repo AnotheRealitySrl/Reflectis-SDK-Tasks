@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SPACS.PLG.Tasks.Controllers
+namespace SPACS.PLG.Tasks.Detectors
 {
     public class MaterialController : MonoBehaviour
     {

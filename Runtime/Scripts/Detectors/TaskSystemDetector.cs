@@ -4,35 +4,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class TaskSystemDetector : MonoBehaviour
+namespace SPACS.PLG.Tasks.Detectors
 {
-    [SerializeField]
-    private TaskSystem taskSystem = default;
-
-    [SerializeField]
-    private UnityEvent onTaskCompleted = default;
-
-    [SerializeField]
-    private UnityEvent onSubtaskCompleted = default;
-
-    private List<(UnityEvent<bool>, UnityAction<bool>)> callbacks = new List<(UnityEvent<bool>, UnityAction<bool>)>();
-
-    ///////////////////////////////////////////////////////////////////////////
-    private void Start()
+    public class TaskSystemDetector : MonoBehaviour
     {
-        taskSystem.OnTaskCompleted += TaskCompleted;
-    }
+        [SerializeField]
+        private TaskSystem taskSystem = default;
 
-    ///////////////////////////////////////////////////////////////////////////
-    private void TaskCompleted(TaskNode task)
-    {
-        if (task.TasksDependingOnThis.Count == 0)
+        [SerializeField]
+        private UnityEvent onTaskCompleted = default;
+
+        [SerializeField]
+        private UnityEvent onSubtaskCompleted = default;
+
+        private List<(UnityEvent<bool>, UnityAction<bool>)> callbacks = new List<(UnityEvent<bool>, UnityAction<bool>)>();
+
+        ///////////////////////////////////////////////////////////////////////////
+        private void Start()
         {
-            onTaskCompleted?.Invoke();
+            taskSystem.OnTaskCompleted += TaskCompleted;
         }
-        else
+
+        ///////////////////////////////////////////////////////////////////////////
+        private void TaskCompleted(TaskNode task)
         {
-            onSubtaskCompleted?.Invoke();
+            if (task.TasksDependingOnThis.Count == 0)
+            {
+                onTaskCompleted?.Invoke();
+            }
+            else
+            {
+                onSubtaskCompleted?.Invoke();
+            }
         }
     }
 }

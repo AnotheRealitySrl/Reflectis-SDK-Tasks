@@ -3,42 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRActivationDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    [Header("References")]
-    public GameObject activator = default;
-    public GameObject[] activatables = default;
-
-    [Header("Events")]
-    public UnityEvent OnActivationStart = default;
-    public UnityEvent OnActivationEnd = default;
-    public UnityEvent OnHoverStart = default;
-    public UnityEvent OnHoverEnd = default;
-
-    protected void Init()
+    public class XRActivationDetector : XRDetector
     {
-        XRActivationDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRActivationDetector>())
+        [Header("References")]
+        public GameObject activator = default;
+        public GameObject[] activatables = default;
+
+        [Header("Events")]
+        public UnityEvent OnActivationStart = default;
+        public UnityEvent OnActivationEnd = default;
+        public UnityEvent OnHoverStart = default;
+        public UnityEvent OnHoverEnd = default;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRActivationDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRActivationDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+
+            activator = genericDetector.activator;
+
+            int lenght = genericDetector.activatables.Length;
+            activatables = new GameObject[lenght];
+            for (int i = 0; i < lenght; i++)
+                activatables[i] = genericDetector.activatables[i];
+
+            OnActivationStart = genericDetector.OnActivationStart;
+            OnActivationEnd = genericDetector.OnActivationEnd;
+            OnHoverStart = genericDetector.OnHoverStart;
+            OnHoverEnd = genericDetector.OnHoverEnd;
+            initialized = false;
+            Destroy(genericDetector);
         }
-
-        activator = genericDetector.activator;
-
-        int lenght = genericDetector.activatables.Length;
-        activatables = new GameObject[lenght];
-        for (int i = 0; i < lenght; i++)
-            activatables[i] = genericDetector.activatables[i];
-
-        OnActivationStart = genericDetector.OnActivationStart;
-        OnActivationEnd = genericDetector.OnActivationEnd;
-        OnHoverStart = genericDetector.OnHoverStart;
-        OnHoverEnd = genericDetector.OnHoverEnd;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

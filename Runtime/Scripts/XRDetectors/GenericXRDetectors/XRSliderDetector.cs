@@ -3,30 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRSliderDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    public GameObject slider;
-
-    public UnityEvent OnMin;
-    public UnityEvent OnMid;
-    public UnityEvent OnMax;
-
-    protected void Init()
+    public class XRSliderDetector : XRDetector
     {
-        XRSliderDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRSliderDetector>())
+        public GameObject slider;
+
+        public UnityEvent OnMin;
+        public UnityEvent OnMid;
+        public UnityEvent OnMax;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRSliderDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRSliderDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+            slider = genericDetector.slider;
+            OnMin = genericDetector.OnMin;
+            OnMid = genericDetector.OnMid;
+            OnMax = genericDetector.OnMax;
+            initialized = false;
+            Destroy(genericDetector);
         }
-        slider = genericDetector.slider;
-        OnMin = genericDetector.OnMin;
-        OnMid = genericDetector.OnMid;
-        OnMax = genericDetector.OnMax;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

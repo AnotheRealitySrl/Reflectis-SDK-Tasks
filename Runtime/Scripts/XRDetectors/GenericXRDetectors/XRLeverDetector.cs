@@ -3,30 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRLeverDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    public GameObject lever;
-
-    public UnityEvent OnMin;
-    public UnityEvent OnMid;
-    public UnityEvent OnMax;
-
-    protected void Init()
+    public class XRLeverDetector : XRDetector
     {
-        XRLeverDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRLeverDetector>())
+        public GameObject lever;
+
+        public UnityEvent OnMin;
+        public UnityEvent OnMid;
+        public UnityEvent OnMax;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRLeverDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRLeverDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+            lever = genericDetector.lever;
+            OnMin = genericDetector.OnMin;
+            OnMid = genericDetector.OnMid;
+            OnMax = genericDetector.OnMax;
+            initialized = false;
+            Destroy(genericDetector);
         }
-        lever = genericDetector.lever;
-        OnMin = genericDetector.OnMin;
-        OnMid = genericDetector.OnMid;
-        OnMax = genericDetector.OnMax;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

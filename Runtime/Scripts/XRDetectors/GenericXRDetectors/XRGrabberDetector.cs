@@ -3,53 +3,56 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRGrabberDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    [Header("References")]
-    public GameObject[] controllerInteractors = default;
-
-    public GameObject[] grabbables = default;
-
-    [Header("Events")]
-    public UnityEvent OnGrabStart = default;
-
-    public UnityEvent OnGrabEnd = default;
-
-    public UnityEvent OnHoverStart = default;
-
-    public UnityEvent OnHoverEnd = default;
-
-    protected bool isGrabbing = false;
-
-    protected void Init()
+    public class XRGrabberDetector : XRDetector
     {
-        XRGrabberDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRGrabberDetector>())
+        [Header("References")]
+        public GameObject[] controllerInteractors = default;
+
+        public GameObject[] grabbables = default;
+
+        [Header("Events")]
+        public UnityEvent OnGrabStart = default;
+
+        public UnityEvent OnGrabEnd = default;
+
+        public UnityEvent OnHoverStart = default;
+
+        public UnityEvent OnHoverEnd = default;
+
+        protected bool isGrabbing = false;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRGrabberDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRGrabberDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+
+            int lenght = genericDetector.controllerInteractors.Length;
+            controllerInteractors = new GameObject[lenght];
+            for (int i = 0; i < lenght; i++)
+                controllerInteractors[i] = genericDetector.controllerInteractors[i].gameObject;
+
+            lenght = genericDetector.grabbables.Length;
+            grabbables = new GameObject[lenght];
+            for (int i = 0; i < lenght; i++)
+                grabbables[i] = genericDetector.grabbables[i].gameObject;
+
+            controllerInteractors = genericDetector.controllerInteractors;
+            grabbables = genericDetector.grabbables;
+            OnGrabStart = genericDetector.OnGrabStart;
+            OnGrabEnd = genericDetector.OnGrabEnd;
+            OnHoverStart = genericDetector.OnHoverStart;
+            OnHoverEnd = genericDetector.OnHoverEnd;
+            initialized = false;
+            Destroy(genericDetector);
         }
-
-        int lenght = genericDetector.controllerInteractors.Length;
-        controllerInteractors = new GameObject[lenght];
-        for (int i = 0; i < lenght; i++)
-            controllerInteractors[i] = genericDetector.controllerInteractors[i].gameObject;
-
-        lenght = genericDetector.grabbables.Length;
-        grabbables = new GameObject[lenght];
-        for (int i = 0; i < lenght; i++)
-            grabbables[i] = genericDetector.grabbables[i].gameObject;
-
-        controllerInteractors = genericDetector.controllerInteractors;
-        grabbables = genericDetector.grabbables;
-        OnGrabStart = genericDetector.OnGrabStart;
-        OnGrabEnd = genericDetector.OnGrabEnd;
-        OnHoverStart = genericDetector.OnHoverStart;
-        OnHoverEnd = genericDetector.OnHoverEnd;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

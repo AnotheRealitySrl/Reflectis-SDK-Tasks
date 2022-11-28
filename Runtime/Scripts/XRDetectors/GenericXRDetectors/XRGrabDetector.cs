@@ -3,37 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class XRGrabDetector : XRDetector
+namespace SPACS.PLG.Tasks.XRDetectors
 {
-    [Header("References")]
-    public GameObject grabbable = default;
-
-    [Header("Events")]
-    public UnityEvent OnGrabStart = default;
-
-    public UnityEvent OnGrabEnd = default;
-
-    public UnityEvent OnHoverStart = default;
-
-    public UnityEvent OnHoverEnd = default;
-
-    protected void Init()
+    public class XRGrabDetector : XRDetector
     {
-        XRGrabDetector genericDetector = null;
-        foreach (var detector in GetComponents<XRGrabDetector>())
+        [Header("References")]
+        public GameObject grabbable = default;
+
+        [Header("Events")]
+        public UnityEvent OnGrabStart = default;
+
+        public UnityEvent OnGrabEnd = default;
+
+        public UnityEvent OnHoverStart = default;
+
+        public UnityEvent OnHoverEnd = default;
+
+        protected void Init()
         {
-            if (detector != this)
+            XRGrabDetector genericDetector = null;
+            foreach (var detector in GetComponents<XRGrabDetector>())
             {
-                genericDetector = detector;
-                break;
+                if (detector != this)
+                {
+                    genericDetector = detector;
+                    break;
+                }
             }
+            grabbable = genericDetector.grabbable;
+            OnGrabStart = genericDetector.OnGrabStart;
+            OnGrabEnd = genericDetector.OnGrabEnd;
+            OnHoverStart = genericDetector.OnHoverStart;
+            OnHoverEnd = genericDetector.OnHoverEnd;
+            initialized = false;
+            Destroy(genericDetector);
         }
-        grabbable = genericDetector.grabbable;
-        OnGrabStart = genericDetector.OnGrabStart;
-        OnGrabEnd = genericDetector.OnGrabEnd;
-        OnHoverStart = genericDetector.OnHoverStart;
-        OnHoverEnd = genericDetector.OnHoverEnd;
-        initialized = false;
-        Destroy(genericDetector);
     }
 }

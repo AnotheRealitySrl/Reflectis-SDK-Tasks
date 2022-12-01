@@ -28,7 +28,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
             OnMin = genericDetector.OnMin;
             OnMid = genericDetector.OnMid;
             OnMax = genericDetector.OnMax;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

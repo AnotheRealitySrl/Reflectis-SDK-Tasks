@@ -51,7 +51,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
             OnGrabEnd = genericDetector.OnGrabEnd;
             OnHoverStart = genericDetector.OnHoverStart;
             OnHoverEnd = genericDetector.OnHoverEnd;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

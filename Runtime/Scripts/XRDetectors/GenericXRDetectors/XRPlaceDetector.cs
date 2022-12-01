@@ -30,7 +30,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
             grabbable = genericDetector.grabbable;
             OnPlace = genericDetector.OnPlace;
             OnRemove = genericDetector.OnRemove;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

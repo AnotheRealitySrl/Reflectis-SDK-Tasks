@@ -24,7 +24,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
             button = genericDetector.button;
             OnPressed = genericDetector.OnPressed;
             OnUnpressed = genericDetector.OnUnpressed;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

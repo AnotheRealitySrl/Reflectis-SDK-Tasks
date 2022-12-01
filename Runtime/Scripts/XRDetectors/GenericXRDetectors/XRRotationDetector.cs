@@ -92,7 +92,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
             onRotateInWrongDirection = genericDetector.onRotateInWrongDirection;
             onStopRotation = genericDetector.onStopRotation;
             onTargetReached = genericDetector.onTargetReached;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
 

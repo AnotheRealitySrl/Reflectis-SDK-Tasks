@@ -40,7 +40,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
 
             OnClimb = genericDetector.OnClimb;
             OnHighestPointClimb = genericDetector.OnHighestPointClimb;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

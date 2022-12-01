@@ -31,7 +31,7 @@ namespace SPACS.PLG.Tasks.XRDetectors
                 teleporters[i] = genericDetector.teleporters[i].gameObject;
 
             OnTeleport = genericDetector.OnTeleport;
-            initialized = false;
+            initialized = true;
             Destroy(genericDetector);
         }
     }

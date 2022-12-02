@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace SPACS.Tasks.UI
+namespace SPACS.PLG.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

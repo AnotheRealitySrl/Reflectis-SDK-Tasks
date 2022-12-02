@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace SPACS.Tasks.UI
+namespace SPACS.PLG.Tasks.UI
 {
     /// <summary>
     /// Helps with the VideoPlayer and its RenderTexture.

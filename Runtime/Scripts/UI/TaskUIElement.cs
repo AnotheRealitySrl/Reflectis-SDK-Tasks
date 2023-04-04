@@ -4,7 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.TextCore.Text;
 using FontStyles = TMPro.FontStyles;
 
-namespace SPACS.Tasks.UI
+namespace SPACS.PLG.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

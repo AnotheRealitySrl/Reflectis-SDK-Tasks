@@ -3,7 +3,7 @@
     "rootNamespace": "",
     "references": [
         "I2.Loc",
-        "SPACS.PLG.Graphs.Runtime",
+        "SPACS.PLG.Graphs",
         "Unity.TextMeshPro"
     ],
     "includePlatforms": [],

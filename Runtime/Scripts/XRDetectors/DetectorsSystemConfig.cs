@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SPACS.PLG.Tasks.XRDetectors
 {
-    [CreateAssetMenu(menuName = "AnotheReality/Systems/Detectors/DetectorsConfig", fileName = "DetectorsSystemConfig")]
+    [CreateAssetMenu(menuName = "SPACS/PLG-Tasks/DetectorsConfig", fileName = "DetectorsConfig")]
     public abstract class DetectorsSystemConfig : ScriptableObject
     {
         public abstract void AddActivation(GameObject detector);

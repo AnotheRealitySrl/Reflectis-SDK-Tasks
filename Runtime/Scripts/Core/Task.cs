@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using SPACS.PLG.Graphs;
+
+using UnityEngine;
 using UnityEngine.Events;
 
-using SPACS.PLG.Graphs;
 using static SPACS.PLG.Tasks.TaskNode;
 
 namespace SPACS.PLG.Tasks

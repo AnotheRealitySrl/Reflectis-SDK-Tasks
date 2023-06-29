@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using SPACS.PLG.Graphs;
 
-using SPACS.PLG.Graphs;
+using System.Collections.Generic;
+using System.Linq;
 
 using UnityEngine;
 using UnityEngine.Events;
@@ -113,10 +113,10 @@ namespace SPACS.PLG.Tasks
         }
 
         /// <summary>Is this task going to be shown in UI?</summary>
-        public bool ShowInUI 
-        { 
-            get => showInUI; 
-            set => showInUI = value; 
+        public bool ShowInUI
+        {
+            get => showInUI;
+            set => showInUI = value;
         }
 
         ///////////////////////////////////////////////////////////////////////////

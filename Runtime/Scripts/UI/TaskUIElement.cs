@@ -1,7 +1,8 @@
 using TMPro;
+
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.TextCore.Text;
+
 using FontStyles = TMPro.FontStyles;
 
 namespace SPACS.PLG.Tasks.UI

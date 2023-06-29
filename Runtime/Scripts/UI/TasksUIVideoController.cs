@@ -1,4 +1,5 @@
 using UnityEditor;
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -45,7 +46,7 @@ namespace SPACS.PLG.Tasks.UI
         private void OnValidate()
         {
 #if UNITY_EDITOR
-      if (videoPlayer == null) videoPlayer = GetComponent<VideoPlayer>();
+            if (videoPlayer == null) videoPlayer = GetComponent<VideoPlayer>();
             if (rawImage == null) rawImage = GetComponentInChildren<RawImage>();
 
             //If there are the correct references, return
@@ -85,6 +86,6 @@ namespace SPACS.PLG.Tasks.UI
             videoPlayer.targetTexture = texture;
             rawImage.texture = texture;
 #endif
+        }
     }
-  }
 }

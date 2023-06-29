@@ -1,5 +1,4 @@
 using UnityEngine;
-using SPACS.PLG.Tasks;
 using UnityEngine.Events;
 
 namespace SPACS.PLG.Tasks.Detectors

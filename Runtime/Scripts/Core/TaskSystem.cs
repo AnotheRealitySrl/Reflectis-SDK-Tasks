@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using SPACS.PLG.Graphs;
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
 using UnityEngine;
 using UnityEngine.Events;
 
-using SPACS.PLG.Graphs;
 using static SPACS.PLG.Tasks.TaskNode;
 
 namespace SPACS.PLG.Tasks
@@ -119,16 +120,16 @@ namespace SPACS.PLG.Tasks
             {
                 OnTaskCompleted?.Invoke(task);
 
-                    // Unlock the next task (if it exists)
-                    TaskNode nextTask = task.Next;
-                    if (nextTask != null && nextTask.Status == TaskStatus.Locked)
-                        nextTask.Status = TaskStatus.Todo;
+                // Unlock the next task (if it exists)
+                TaskNode nextTask = task.Next;
+                if (nextTask != null && nextTask.Status == TaskStatus.Locked)
+                    nextTask.Status = TaskStatus.Todo;
 
-                    // Complete any task that depends on this task IF it is the last task to be completed
-                    // in the collection of dependencies
-                    foreach (var taskDependingOnThis in task.TasksDependingOnThis)
-                        if (taskDependingOnThis.Dependencies.All(dep => dep.Status == TaskStatus.Completed))
-                            taskDependingOnThis.Status = TaskStatus.Completed;
+                // Complete any task that depends on this task IF it is the last task to be completed
+                // in the collection of dependencies
+                foreach (var taskDependingOnThis in task.TasksDependingOnThis)
+                    if (taskDependingOnThis.Dependencies.All(dep => dep.Status == TaskStatus.Completed))
+                        taskDependingOnThis.Status = TaskStatus.Completed;
 
                 if (task == Tasks.LastOrDefault())
                 {

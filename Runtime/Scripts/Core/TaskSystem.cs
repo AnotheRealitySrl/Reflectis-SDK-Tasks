@@ -1,4 +1,4 @@
-﻿using SPACS.PLG.Graphs;
+﻿using Reflectis.PLG.Graphs;
 
 using System.Collections;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-using static SPACS.PLG.Tasks.TaskNode;
+using static Reflectis.PLG.Tasks.TaskNode;
 
-namespace SPACS.PLG.Tasks
+namespace Reflectis.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

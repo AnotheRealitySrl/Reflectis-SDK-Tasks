@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SPACS.PLG.Tasks.Detectors
+namespace Reflectis.PLG.Tasks.Detectors
 {
     /// <summary>
     /// Utility class listens and fires events related to a task

@@ -3,7 +3,7 @@ using I2.Loc;
 using UnityEngine;
 using UnityEngine.Video;
 
-namespace SPACS.PLG.Tasks.Utils
+namespace Reflectis.PLG.Tasks.Utils
 {
     public class LocalizeTask : MonoBehaviour
     {

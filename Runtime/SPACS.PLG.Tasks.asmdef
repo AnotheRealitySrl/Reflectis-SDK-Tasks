@@ -1,9 +1,9 @@
 {
-    "name": "SPACS.PLG.Tasks",
+    "name": "Reflectis.PLG.Tasks",
     "rootNamespace": "",
     "references": [
         "I2.Loc",
-        "SPACS.PLG.Graphs",
+        "Reflectis.PLG.Graphs",
         "Unity.TextMeshPro"
     ],
     "includePlatforms": [],

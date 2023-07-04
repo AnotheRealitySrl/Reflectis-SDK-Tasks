@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SPACS.PLG.Tasks.XRDetectors
+namespace Reflectis.PLG.Tasks.XRDetectors
 {
     public abstract class XRDetector : MonoBehaviour
     {

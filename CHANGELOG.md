@@ -12,7 +12,7 @@
 
 ### Changed:
 
-- Migrate to SPACS systems framework
+- Migrate to Reflectis systems framework
 - Create generic interfaces for XR task detectors
 
 ### Added:

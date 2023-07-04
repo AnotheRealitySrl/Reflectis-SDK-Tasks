@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace SPACS.PLG.Tasks.UI
+namespace Reflectis.PLG.Tasks.UI
 {
     /// <summary>
     /// Helps with the VideoPlayer and its RenderTexture.
@@ -23,7 +23,7 @@ namespace SPACS.PLG.Tasks.UI
         /// </summary>
         private VideoPlayer videoPlayer = default;
         private RawImage rawImage;
-        private string sampleTextureFolderPath = "Assets/SPACSSettings";
+        private string sampleTextureFolderPath = "Assets/ReflectisSettings";
 
         ///////////////////////////////////////////////////////////////////////////
         private void Awake()
@@ -58,7 +58,7 @@ namespace SPACS.PLG.Tasks.UI
             if (!AssetDatabase.IsValidFolder(sampleTextureFolderPath))
             {
                 //Create the folder for the sample texture
-                AssetDatabase.CreateFolder("Assets", "SPACSSettings");
+                AssetDatabase.CreateFolder("Assets", "ReflectisSettings");
             }
             if (texture == null)
             {

@@ -1,6 +1,6 @@
-﻿using SPACS.PLG.Graphs;
+﻿using Reflectis.PLG.Graphs;
 
-namespace SPACS.PLG.Tasks
+namespace Reflectis.PLG.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

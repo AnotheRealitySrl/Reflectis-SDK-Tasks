@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace SPACS.PLG.Tasks.Detectors
+namespace Reflectis.PLG.Tasks.Detectors
 {
     public class TaskSystemDetector : MonoBehaviour
     {

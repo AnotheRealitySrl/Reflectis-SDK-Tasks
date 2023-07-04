@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 using FontStyles = TMPro.FontStyles;
 
-namespace SPACS.PLG.Tasks.UI
+namespace Reflectis.PLG.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

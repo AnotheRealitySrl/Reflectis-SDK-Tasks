@@ -56,7 +56,7 @@ namespace Reflectis.PLG.Tasks
         }
 
         ///////////////////////////////////////////////////////////////////////////
-        private void OnStatusChanged(TaskStatus oldStatus)
+        protected virtual void OnStatusChanged(TaskStatus oldStatus)
         {
             if (Node.Status == TaskStatus.Todo)
                 onTaskUnlocked.Invoke();

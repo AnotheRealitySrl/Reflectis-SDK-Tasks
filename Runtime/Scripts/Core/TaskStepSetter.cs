@@ -25,7 +25,7 @@ namespace Reflectis.PLG.Tasks
         public static int StepIndex { get; set; } = 0;
 
         [Header("Scene Elements References")]
-        [SerializeField] private TaskSystem taskSystem = default;
+        [SerializeField] protected TaskSystem taskSystem = default;
         [Header("Training Steps")]
         [SerializeField] private TrainingStep[] trainingSteps = default;
 
@@ -72,7 +72,7 @@ namespace Reflectis.PLG.Tasks
         /// <param name="parentTask"> Starting task </param>
         /// <param name="targetNode"> Final task </param>
         /// <returns></returns>
-        private bool CompleteTaskRecursive(TaskNode parentTask, TaskNode targetNode)
+        protected bool CompleteTaskRecursive(TaskNode parentTask, TaskNode targetNode)
         {
             if (parentTask == null)
             {

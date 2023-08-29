@@ -16,6 +16,9 @@ namespace Reflectis.PLG.Tasks.Detectors
         [SerializeField, Tooltip("")]
         private Transform castPivot;
 
+        [SerializeField, Tooltip("if set to true and castPivot set to none then use the main camera as cast pivot")]
+        private bool useCamera;
+
         [SerializeField, Tooltip("")]
         private Transform laser;
 
@@ -73,6 +76,12 @@ namespace Reflectis.PLG.Tasks.Detectors
                     laser.gameObject.SetActive(false);
                 routineStarted = false;
                 StopAllCoroutines();
+            }
+        }
+
+        private void Start(){
+            if(castPivot == null && useCamera){
+                castPivote = Camera.main
             }
         }
 

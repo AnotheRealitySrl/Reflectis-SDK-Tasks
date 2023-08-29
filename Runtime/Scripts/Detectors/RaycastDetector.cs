@@ -81,7 +81,7 @@ namespace Reflectis.PLG.Tasks.Detectors
 
         private void Start(){
             if(castPivot == null && useCamera){
-                castPivote = Camera.main
+                castPivot = Camera.main
             }
         }
 

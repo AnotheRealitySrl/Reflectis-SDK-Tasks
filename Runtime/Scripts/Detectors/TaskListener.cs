@@ -27,6 +27,14 @@ namespace Reflectis.PLG.Tasks.Detectors
         private void OnEnable()
         {
             task.OnTaskUnlocked.AddListener(onTaskUnlocked.Invoke);
+            if (task.Node.Status == TaskNode.TaskStatus.Todo)
+            {
+                onTaskUnlocked.Invoke();
+            }
+            else
+            {
+                task.OnTaskUnlocked.AddListener(onTaskUnlocked.Invoke);
+            }
             task.OnTaskCompleted.AddListener(onTaskCompleted.Invoke);
         }
 

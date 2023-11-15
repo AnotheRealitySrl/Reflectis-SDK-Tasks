@@ -8,13 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Highlight
-  m_Shader: {fileID: -6465566751694194690, guid: efa3eef7dd97b244aa429b84e396030e, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: cb13b0be0da21ea4d8593559f9546d96, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _HIGHLIGHT_ON
-  - _OUTLINEENABLED_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -65,6 +63,7 @@ Material:
     - Vector1_C0825301: 0.339
     - Vector1_DF874D7: 0
     - _Blinkingspeed: 0.5
+    - _Float: 1
     - _GlobalOpacity: 0
     - _Intensity: 3.54
     - _Opacity: 0.073
@@ -82,8 +81,10 @@ Material:
     - Color_5053C8F1: {r: 1, g: 1, b: 1, a: 0}
     - Color_56E59E52: {r: 0, g: 0.36875823, b: 0.8509804, a: 0}
     - Color_D88A4458: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 2.65051, b: 4, a: 0}
     - _Emissioncolor: {r: 0, g: 1.1353015, b: 1.0520856, a: 0}
     - _Hologramcolor: {r: 0, g: 0.38039207, b: 0.5490196, a: 0}
+    - _Object_Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7068444544581795511
 MonoBehaviour:
@@ -97,4 +98,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 6
+  version: 7

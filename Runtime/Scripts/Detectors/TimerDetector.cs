@@ -16,12 +16,13 @@ namespace Reflectis.PLG.Tasks.Detectors
         private void OnEnable()
         {
             StartCoroutine(WaitForTime());
-            onFinishedWaiting.Invoke();
+
         }
 
         private IEnumerator WaitForTime()
         {
             yield return new WaitForSeconds(timeToWait);
+            onFinishedWaiting.Invoke();
         }
     }
 }

@@ -88,6 +88,8 @@ namespace Reflectis.PLG.Tasks.UI
 
 
         private IEnumerable<TaskNode> allTasks, macroTasks, subTasks;
+        private int numberOfMacroTasks;
+        private int numberOfSubTasks;
 
         ///////////////////////////////////////////////////////////////////////////
         //private void Awake()
@@ -109,8 +111,12 @@ namespace Reflectis.PLG.Tasks.UI
             macroTasks = allTasks
                 .Where(t => t.Dependencies.Count > 0 && t.Depth < maxTasksDepth);
 
-            subTasks = allTasks
+            numberOfMacroTasks = macroTasks.Count();
+
+             subTasks = allTasks
                 .Where(t => t.Dependencies.Count == 0 || t.Depth == maxTasksDepth);
+
+            numberOfSubTasks = subTasks.Count();
 
             RebuildUIImmediately();
         }
@@ -198,7 +204,16 @@ namespace Reflectis.PLG.Tasks.UI
                 .Where(t => t.Status == TaskNode.TaskStatus.Completed)
                 .Count() + 1;
             stepIndexLabel.text = stepIndex.ToString().PadLeft(2, '0');
-            totalTasksCountLabel.text = stepsTasks.Count().ToString().PadLeft(2, '0');
+
+            //totalTasksCountLabel.text = stepsTasks.Count().ToString().PadLeft(2, '0');
+            if (stepsTasksType == TaskType.Macrotask)
+            {
+                totalTasksCountLabel.text = numberOfMacroTasks.ToString().PadLeft(2, '0');
+            }
+            else
+            {
+                totalTasksCountLabel.text = numberOfSubTasks.ToString().PadLeft(2, '0');
+            }
         }
 
         ///////////////////////////////////////////////////////////////////////////

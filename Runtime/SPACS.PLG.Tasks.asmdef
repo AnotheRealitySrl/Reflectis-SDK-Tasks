@@ -4,7 +4,10 @@
     "references": [
         "I2.Loc",
         "Reflectis.PLG.Graphs",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "Unity.VisualScripting.Core",
+        "Unity.VisualScripting.Flow",
+        "Unity.VisualScripting.State"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

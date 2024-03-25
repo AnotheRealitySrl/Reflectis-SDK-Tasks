@@ -19,11 +19,11 @@ namespace Reflectis.PLG.Tasks
     {
         [Header("References")]
         [SerializeField, Tooltip("The scene component or project asset that contains a valid graph")]
-        private Object graphContainer = default;
+        protected Object graphContainer = default;
 
         [Header("Events")]
         [SerializeField, Tooltip("Invoked when the task system is ready to go")]
-        private UnityEvent taskSystemReady = default;
+        protected UnityEvent taskSystemReady = default;
 
         [SerializeField, Tooltip("Invoked when any task of the task system changes its status")]
         public UnityEvent tasksChanged = default;
@@ -34,8 +34,8 @@ namespace Reflectis.PLG.Tasks
         public delegate void TaskCompleted(TaskNode node);
         public event TaskCompleted OnTaskCompleted;
 
-        private IGraph graph = null;
-        private bool isPrepared = false;
+        protected IGraph graph = null;
+        protected bool isPrepared = false;
 
         ///////////////////////////////////////////////////////////////////////////
         /// <summary>The graph used to build the task system</summary>
@@ -74,7 +74,7 @@ namespace Reflectis.PLG.Tasks
 
 
         ///////////////////////////////////////////////////////////////////////////
-        private void Awake()
+        protected virtual void Awake()
         {
             Prepare();
         }
@@ -113,7 +113,7 @@ namespace Reflectis.PLG.Tasks
 
         ///////////////////////////////////////////////////////////////////////////
         /// Called when a task changed its status
-        private void OnTaskStatusChanged(TaskNode task, TaskStatus _)
+        protected void OnTaskStatusChanged(TaskNode task, TaskStatus _)
         {
             // Has the task been completed?
             if (task.Status == TaskStatus.Completed)

@@ -11,5 +11,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AnotheRealitySrl/Reflectis-Tasks"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "I2 LocalizeTask",
+      "description": "Contains the script used to be able to localize the language for the tasks",
+      "path": "I2Task"
+    }
+
+  ]
 }

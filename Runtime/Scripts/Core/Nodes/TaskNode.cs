@@ -31,31 +31,31 @@ namespace Reflectis.PLG.Tasks
         ///////////////////////////////////////////////////////////////////////////
         [Header("Ports")]
         [SerializeField, HideInInspector, PortLabel("")]
-        private MultiInputPort<TaskNode> input = default;
+        protected MultiInputPort<TaskNode> input = default;
 
         [SerializeField, HideInInspector]
-        private OutputPort<TaskNode> next = default;
+        protected OutputPort<TaskNode> next = default;
 
         [SerializeField, HideInInspector]
-        private MultiOutputPort<TaskNode> dependencies = default;
+        protected MultiOutputPort<TaskNode> dependencies = default;
 
 
         [Header("Data")]
         [SerializeField, Tooltip("The task description")]
-        private string description;
+        protected string description;
 
         [SerializeField, Tooltip("Image media file attached to the task")]
-        private Sprite image = default;
+        protected Sprite image = default;
 
         [SerializeField, Tooltip("Video media file attached to the task")]
-        private VideoClip videoClip = default;
+        protected VideoClip videoClip = default;
 
         [SerializeField, NodeData, Tooltip("The current task status")]
-        private TaskStatus status = TaskStatus.Locked;
+        protected TaskStatus status = TaskStatus.Locked;
 
         [Header("Settings")]
         [SerializeField, Tooltip("Is this task going to be shown in UI?")]
-        private bool showInUI = true;
+        protected bool showInUI = true;
 
         [Header("Events")]
         [SerializeField, Tooltip("Event called when the task status changes")]
@@ -160,7 +160,7 @@ namespace Reflectis.PLG.Tasks
 
         /// This dictionary maps a status to a color used in the editor's graph
         /// to highlight nodes depending on their statuses
-        private static readonly Dictionary<TaskStatus, Color> nodeColors = new Dictionary<TaskStatus, Color>()
+        protected static readonly Dictionary<TaskStatus, Color> nodeColors = new Dictionary<TaskStatus, Color>()
         {
             { TaskStatus.Completed, Color.green },
             { TaskStatus.Failed, Color.red },

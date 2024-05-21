@@ -1,8 +1,7 @@
 ﻿using Reflectis.PLG.Graphs;
-
+using Reflectis.PLG.Tasks.Detectors;
 using UnityEngine;
 using UnityEngine.Events;
-
 using static Reflectis.PLG.Tasks.TaskNode;
 
 namespace Reflectis.PLG.Tasks
@@ -12,14 +11,16 @@ namespace Reflectis.PLG.Tasks
     /// Scene component that contains a task and handles its events in the
     /// Graph System
     /// </summary>
-    public class Task : NodeBehaviour<TaskNode>
+    public class Task : NodeBehaviour<TaskNode>, ITaskNode<TaskNode>
     {
+        public TaskNode Value { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+
         [Header("Events")]
         [SerializeField, Tooltip("Invoked when the task is unlocked (status ToDo)")]
-        private UnityEvent onTaskUnlocked = default;
+        protected UnityEvent onTaskUnlocked = default;
 
         [SerializeField, Tooltip("Invoked when the task is completed (status Completed)")]
-        private UnityEvent<bool> onTaskCompleted = default;
+        protected UnityEvent<bool> onTaskCompleted = default;
 
 
         ///////////////////////////////////////////////////////////////////////////
@@ -29,7 +30,6 @@ namespace Reflectis.PLG.Tasks
         ///////////////////////////////////////////////////////////////////////////
         /// <summary>Invoked when the task is completed (status Completed)</summary>
         public UnityEvent<bool> OnTaskCompleted => onTaskCompleted;
-
 
         ///////////////////////////////////////////////////////////////////////////
         /// <summary>Turns the task status to ToDo</summary>
@@ -64,6 +64,13 @@ namespace Reflectis.PLG.Tasks
                 onTaskCompleted.Invoke(true);
             else if (Node.Status == TaskStatus.Failed)
                 onTaskCompleted.Invoke(false);
+        }
+
+        public virtual void AddDetector()
+        {
+            GameObject go = new GameObject("TaskListener");
+            go.transform.SetParent(gameObject.transform);
+            go.AddComponent<TaskListener>();
         }
     }
 }

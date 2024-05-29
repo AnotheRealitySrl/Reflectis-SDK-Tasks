@@ -113,8 +113,8 @@ namespace Reflectis.PLG.Tasks.UI
 
             numberOfMacroTasks = macroTasks.Count();
 
-             subTasks = allTasks
-                .Where(t => t.Dependencies.Count == 0 || t.Depth == maxTasksDepth);
+            subTasks = allTasks
+               .Where(t => t.Dependencies.Count == 0 || t.Depth == maxTasksDepth);
 
             numberOfSubTasks = subTasks.Count();
 
@@ -130,7 +130,7 @@ namespace Reflectis.PLG.Tasks.UI
 
         ///////////////////////////////////////////////////////////////////////////
         /// Destroys all current task elements and create new one from currently active tasks
-        private void RebuildUIImmediately()
+        public void RebuildUIImmediately()
         {
             // Destroy current tasks elements
             foreach (TaskUIElement taskElement in tasksContainer.GetComponentsInChildren<TaskUIElement>())

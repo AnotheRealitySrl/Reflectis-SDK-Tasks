@@ -83,10 +83,18 @@ namespace Reflectis.PLG.Tasks
 
             // If the current task to check is a task used as a step start, then
             // its callback "before start" is executed.
-            TrainingStep checkStep = trainingSteps.FirstOrDefault(x => x.Task.Node == parentTask);
-            if (checkStep != null)
+            if(trainingSteps == null)
             {
-                checkStep.OnBeforeStepStart?.Invoke();
+
+            }
+            else
+            {
+                TrainingStep checkStep = trainingSteps.FirstOrDefault(x => x.Task.Node == parentTask);
+                if (checkStep != null)
+                {
+                    checkStep.OnBeforeStepStart?.Invoke();
+                }
+
             }
 
             if (parentTask == targetNode)

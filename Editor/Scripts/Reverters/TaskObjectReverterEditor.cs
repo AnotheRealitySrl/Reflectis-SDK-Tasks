@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Reflectis.PLG.TasksEditor
 {
-    [CustomEditor(typeof(TaskObjectReverter))]
+    [CustomEditor(typeof(TaskObjectReverter)), CanEditMultipleObjects]
     public class TaskObjectReverterEditor : Editor
     {
         private const float spaceBetweenElements = 5f;

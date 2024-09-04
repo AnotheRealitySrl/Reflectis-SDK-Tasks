@@ -132,6 +132,9 @@ namespace Reflectis.PLG.Tasks.UI
         /// Destroys all current task elements and create new one from currently active tasks
         public void RebuildUIImmediately()
         {
+            // Activate the GameObject no matter what
+            gameObject.SetActive(true);
+
             // Destroy current tasks elements
             foreach (TaskUIElement taskElement in tasksContainer.GetComponentsInChildren<TaskUIElement>())
                 DestroyImmediate(taskElement.gameObject);

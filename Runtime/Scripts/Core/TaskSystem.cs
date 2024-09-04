@@ -17,9 +17,15 @@ namespace Reflectis.PLG.Tasks
     /// </summary>
     public class TaskSystem : MonoBehaviour
     {
+        #region Inspector Info
+
         [Header("References")]
         [SerializeField, Tooltip("The scene component or project asset that contains a valid graph")]
         protected Object graphContainer = default;
+        [Space]
+
+        [SerializeField, Tooltip("The hierarchy components to be reverted in case of task system reset")]
+        protected List<TaskObjectReverterBase> reverters = new List<TaskObjectReverterBase>();
 
         [Header("Events")]
         [SerializeField, Tooltip("Invoked when the task system is ready to go")]
@@ -30,6 +36,8 @@ namespace Reflectis.PLG.Tasks
 
         [SerializeField, Tooltip("Invoked when the last task of the task system changes to completed")]
         public UnityEvent lastTaskCompleted = default;
+
+        #endregion
 
         public delegate void TaskCompleted(TaskNode node);
         public event TaskCompleted OnTaskCompleted;
@@ -88,6 +96,15 @@ namespace Reflectis.PLG.Tasks
                 return;
             isPrepared = true;
 
+            // Prepare all the reverters
+            foreach (TaskObjectReverterBase reverter in reverters)
+            {
+                if (reverter != null)
+                {
+                    reverter.Prepare(this);
+                }
+            }
+
             // Register the global callback to the statuses changes events
             IReadOnlyCollection<TaskNode> allNodes = Tasks;
             foreach (TaskNode node in allNodes)
@@ -95,6 +112,37 @@ namespace Reflectis.PLG.Tasks
 
             // Lock all tasks by default
             foreach (TaskNode node in allNodes)
+                node.Status = TaskStatus.Locked;
+
+            // Set all root tasks status to ToDo
+            foreach (TaskNode node in RootTasks)
+                node.Status = TaskStatus.Todo;
+
+            //Skip one frame to adjust execution order in build
+            IEnumerator DelayedEvent()
+            {
+                yield return null;
+                // Invoke the "task system ready" event
+                taskSystemReady.Invoke();
+            }
+            StartCoroutine(DelayedEvent());
+        }
+
+        ///////////////////////////////////////////////////////////////////////////
+        /// <summary>Call this method to make the task system reset</summary>
+        public void Revert()
+        {
+            // Revert all the reverters
+            foreach (TaskObjectReverterBase reverter in reverters)
+            {
+                if (reverter != null)
+                {
+                    reverter.Revert();
+                }
+            }
+            
+            // Lock all tasks by default
+            foreach (TaskNode node in Tasks)
                 node.Status = TaskStatus.Locked;
 
             // Set all root tasks status to ToDo

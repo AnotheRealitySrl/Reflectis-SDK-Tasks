@@ -35,6 +35,10 @@ namespace Reflectis.PLG.TasksEditor
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("revertRigidbody"));
             }
 
+            EditorGUILayout.Space(spaceBetweenElements);
+            EditorGUILayout.LabelField("=> Custom Revert Event <=", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(serializedObject.FindProperty("customRevertEvent"));
+
             if (Application.isPlaying)
             {
                 EditorGUILayout.Space(spaceBetweenElements);

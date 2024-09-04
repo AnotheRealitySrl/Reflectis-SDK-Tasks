@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Reflectis.PLG.Tasks
 {
@@ -28,6 +29,9 @@ namespace Reflectis.PLG.Tasks
 
         // Rigidbody
         [SerializeField] private bool revertRigidbody = false;
+
+        // Rigidbody
+        [SerializeField] private UnityEvent customRevertEvent = new UnityEvent();
 
         #endregion
 
@@ -181,6 +185,9 @@ namespace Reflectis.PLG.Tasks
                     Debug.LogError($"Task Reverter: trying to reset Rigidbody on object \"{gameObject.name}\": Rigidbody is missing!", gameObject);
                 }
             }
+
+            // Trigger Custom Revert Event
+            customRevertEvent?.Invoke();
         }
     }
 }

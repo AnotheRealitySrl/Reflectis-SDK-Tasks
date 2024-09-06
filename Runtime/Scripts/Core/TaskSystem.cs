@@ -130,7 +130,7 @@ namespace Reflectis.PLG.Tasks
 
         ///////////////////////////////////////////////////////////////////////////
         /// <summary>Call this method to make the task system reset</summary>
-        public void Revert()
+        public virtual void Revert()
         {
             // Revert all the reverters
             foreach (TaskObjectReverterBase reverter in reverters)

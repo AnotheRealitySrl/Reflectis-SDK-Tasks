@@ -3,7 +3,7 @@ using System;
 
 using UnityEngine;
 
-namespace Reflectis.PLG.Tasks.Detectors
+namespace Reflectis.SDK.Tasks.Detectors
 {
     public class MeshSpawner : MonoBehaviour
     {

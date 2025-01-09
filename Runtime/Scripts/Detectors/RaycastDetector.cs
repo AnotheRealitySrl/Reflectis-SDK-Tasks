@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.PLG.Tasks.Detectors
+namespace Reflectis.SDK.Tasks.Detectors
 {
     ///////////////////////////////////////////////////////////////////////////
     public class RaycastDetector : MonoBehaviour
@@ -79,8 +79,10 @@ namespace Reflectis.PLG.Tasks.Detectors
             }
         }
 
-        private void Start(){
-            if(castPivot == null && useCamera){
+        private void Start()
+        {
+            if (castPivot == null && useCamera)
+            {
                 castPivot = Camera.main.transform;
             }
         }

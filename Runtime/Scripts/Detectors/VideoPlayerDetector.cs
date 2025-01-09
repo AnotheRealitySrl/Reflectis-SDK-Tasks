@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Video;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     public class VideoPlayerDetector : MonoBehaviour
     {

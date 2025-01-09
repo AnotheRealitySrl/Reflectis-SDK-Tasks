@@ -1,4 +1,4 @@
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
 
     public delegate void OnTaskComplete();
@@ -9,7 +9,7 @@ namespace Reflectis.PLG.Tasks
         public delegate void InitRoom(int id);
 
         public event OnTaskComplete OnTaskCompleted;
-        public event  OnRevertSystem OnRevertedSystem;
+        public event OnRevertSystem OnRevertedSystem;
         public event InitRoom OnInitRoom;
 
 

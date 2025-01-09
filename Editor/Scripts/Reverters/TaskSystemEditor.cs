@@ -1,8 +1,8 @@
-﻿using Reflectis.PLG.Tasks;
+﻿using Reflectis.SDK.Tasks;
 using UnityEditor;
 using UnityEngine;
 
-namespace Reflectis.PLG.TasksEditor
+namespace Reflectis.SDK.TasksEditor
 {
     [CustomEditor(typeof(TaskSystem))]
     public class TaskSystemEditor : Editor

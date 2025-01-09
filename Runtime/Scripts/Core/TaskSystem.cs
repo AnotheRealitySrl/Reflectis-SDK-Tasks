@@ -1,4 +1,4 @@
-﻿using Reflectis.PLG.Graphs;
+﻿using Reflectis.SDK.Graphs;
 
 using System.Collections;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-using static Reflectis.PLG.Tasks.TaskNode;
+using static Reflectis.SDK.Tasks.TaskNode;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>
@@ -140,7 +140,7 @@ namespace Reflectis.PLG.Tasks
                     reverter.Revert();
                 }
             }
-            
+
             // Lock all tasks by default
             foreach (TaskNode node in Tasks)
                 node.Status = TaskStatus.Locked;

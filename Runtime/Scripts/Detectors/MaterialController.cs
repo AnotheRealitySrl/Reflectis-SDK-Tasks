@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Reflectis.PLG.Tasks.Detectors
+namespace Reflectis.SDK.Tasks.Detectors
 {
     public class MaterialController : MonoBehaviour
     {

@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEditor;
 #endif
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     public class TaskStepSetter : MonoBehaviour
     {
@@ -83,7 +83,7 @@ namespace Reflectis.PLG.Tasks
 
             // If the current task to check is a task used as a step start, then
             // its callback "before start" is executed.
-            if(trainingSteps == null)
+            if (trainingSteps == null)
             {
 
             }

@@ -1,6 +1,6 @@
-﻿using Reflectis.PLG.Graphs;
+﻿using Reflectis.SDK.Graphs;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

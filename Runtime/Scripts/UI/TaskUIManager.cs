@@ -10,7 +10,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace Reflectis.PLG.Tasks.UI
+namespace Reflectis.SDK.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

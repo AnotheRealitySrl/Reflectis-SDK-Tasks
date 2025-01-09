@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.PLG.Tasks.XRDetectors
+namespace Reflectis.SDK.Tasks.XRDetectors
 {
     public class XRPlaceDetector : XRDetector
     {

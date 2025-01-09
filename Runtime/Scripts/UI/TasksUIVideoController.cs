@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace Reflectis.PLG.Tasks.UI
+namespace Reflectis.SDK.Tasks.UI
 {
     /// <summary>
     /// Helps with the VideoPlayer and its RenderTexture.

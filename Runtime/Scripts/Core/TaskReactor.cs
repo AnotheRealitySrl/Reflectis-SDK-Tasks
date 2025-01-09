@@ -3,10 +3,10 @@ using System.Linq;
 
 using UnityEngine;
 
-using static Reflectis.PLG.Tasks.TaskNode;
+using static Reflectis.SDK.Tasks.TaskNode;
 
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

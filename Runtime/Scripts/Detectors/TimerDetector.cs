@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-namespace Reflectis.PLG.Tasks.Detectors
+namespace Reflectis.SDK.Tasks.Detectors
 {
     public class TimerDetector : MonoBehaviour
     {

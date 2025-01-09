@@ -1,4 +1,4 @@
-﻿using Reflectis.PLG.Graphs;
+﻿using Reflectis.SDK.Graphs;
 
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEngine.UIElements;
 using UnityEngine.Video;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

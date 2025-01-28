@@ -1,0 +1,18 @@
+{
+    "name": "Reflectis.SDK.Tasks.Editor",
+    "rootNamespace": "Reflectis.SDK.Tasks.Editor",
+    "references": [
+        "GUID:fe738984b0c28c342b0d3d49a82efa50"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

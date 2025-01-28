@@ -1,11 +1,11 @@
-﻿using Reflectis.SDK.Tasks;
-using UnityEditor;
+﻿using UnityEditor;
+
 using UnityEngine;
 
-namespace Reflectis.SDK.TasksEditor
+namespace Reflectis.SDK.Tasks.Editor
 {
     [CustomEditor(typeof(TaskSystem))]
-    public class TaskSystemEditor : Editor
+    public class TaskSystemEditor : UnityEditor.Editor
     {
         private const float spaceBetweenElements = 5f;
 

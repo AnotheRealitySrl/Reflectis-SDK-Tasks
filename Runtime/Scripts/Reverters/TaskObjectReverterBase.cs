@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     public abstract class TaskObjectReverterBase : MonoBehaviour
     {

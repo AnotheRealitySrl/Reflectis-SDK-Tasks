@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Reflectis.PLG.Tasks.XRDetectors
+namespace Reflectis.SDK.Tasks.XRDetectors
 {
     public class DetectorsSystem : MonoBehaviour
     {

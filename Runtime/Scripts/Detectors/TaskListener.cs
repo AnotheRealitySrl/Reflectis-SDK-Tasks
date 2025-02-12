@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.PLG.Tasks.Detectors
+namespace Reflectis.SDK.Tasks.Detectors
 {
     /// <summary>
     /// Utility class listens and fires events related to a task

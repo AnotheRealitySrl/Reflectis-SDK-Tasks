@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Reflectis.PLG.Tasks.XRDetectors
+namespace Reflectis.SDK.Tasks.XRDetectors
 {
-    [CreateAssetMenu(menuName = "Reflectis/PLG-Tasks/DetectorsConfig", fileName = "DetectorsConfig")]
+    [CreateAssetMenu(menuName = "Reflectis/SDK-Tasks/DetectorsConfig", fileName = "DetectorsConfig")]
     public abstract class DetectorsSystemConfig : ScriptableObject
     {
         public abstract void AddActivation(GameObject detector);

@@ -1,10 +1,10 @@
-﻿using Reflectis.PLG.Graphs;
-using Reflectis.PLG.Tasks.Detectors;
+﻿using Reflectis.SDK.Graphs;
+using Reflectis.SDK.Tasks.Detectors;
 using UnityEngine;
 using UnityEngine.Events;
-using static Reflectis.PLG.Tasks.TaskNode;
+using static Reflectis.SDK.Tasks.TaskNode;
 
-namespace Reflectis.PLG.Tasks
+namespace Reflectis.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

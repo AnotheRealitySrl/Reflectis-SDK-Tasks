@@ -1,6 +1,6 @@
 {
-    "name": "Reflectis.PLG.Tasks.Editor",
-    "rootNamespace": "Reflectis.PLG.TasksEditor",
+    "name": "Reflectis.SDK.Tasks.Editor",
+    "rootNamespace": "Reflectis.SDK.Tasks.Editor",
     "references": [
         "GUID:fe738984b0c28c342b0d3d49a82efa50"
     ],

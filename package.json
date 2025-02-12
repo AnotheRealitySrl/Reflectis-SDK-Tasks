@@ -1,7 +1,7 @@
 {
-  "name": "com.anotherealitysrl.reflectis-plg-tasks",
-  "displayName": "Reflectis-PLG-Tasks",
-  "version": "1.2.0",
+  "name": "com.anotherealitysrl.reflectis-sdk-tasks",
+  "displayName": "Reflectis-SDK-Tasks",
+  "version": "2.0.0",
   "unity": "2020.1",
   "description": "Reflectis Tasks module",
   "keywords": [
@@ -10,13 +10,28 @@
   "category": "Unity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnotheRealitySrl/Reflectis-Tasks"
+    "url": "https://github.com/AnotheRealitySrl/Reflectis-SDK-Tasks"
   },
   "samples": [
     {
       "displayName": "I2 LocalizeTask",
       "description": "Contains the script used to be able to localize the language for the tasks",
-      "path": "I2Task~"
+      "path": "Samples~/I2Tasks"
+    },
+    {
+      "displayName": "Network Tasks",
+      "description": "Contains the scripts used to create networked tasks",
+      "path": "Samples~/TasksNetworked"
+    },
+    {
+      "displayName": "XR Tasks",
+      "description": "Contains the script used to be able to create tasks with the XR Interaction Toolkit",
+      "path": "Samples~/TasksXRKit"
+    },
+    {
+      "displayName": "XR Tasks sample scene",
+      "description": "Sample scene made with XR Tasks",
+      "path": "Samples~/TasksXRKitSampleScene"
     }
   ]
 }

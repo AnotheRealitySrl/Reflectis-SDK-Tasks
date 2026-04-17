@@ -49,6 +49,14 @@ namespace Reflectis.SDK.Tasks.UI
             if (videoPlayer == null) videoPlayer = GetComponent<VideoPlayer>();
             if (rawImage == null) rawImage = GetComponentInChildren<RawImage>();
 
+            if (videoPlayer.targetTexture == null)
+                Debug.LogError("VideoPlayer texture null");
+            if (rawImage == null)
+            {
+                return;
+            }
+
+
             //If there are the correct references, return
             if (videoPlayer.targetTexture != null && rawImage.texture != null && texture != null
                 && videoPlayer.targetTexture == texture && rawImage.texture == texture)

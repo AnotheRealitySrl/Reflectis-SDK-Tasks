@@ -179,7 +179,7 @@ namespace Reflectis.SDK.Tasks
                     if (taskDependingOnThis.Dependencies.All(dep => dep.Status == TaskStatus.Completed))
                         taskDependingOnThis.Status = TaskStatus.Completed;
 
-                if (task == Tasks.LastOrDefault())
+                if (task == Tasks.LastOrDefault() && nextTask==null)
                 {
                     lastTaskCompleted?.Invoke();
                 }

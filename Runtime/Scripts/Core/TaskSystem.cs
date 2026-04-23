@@ -23,6 +23,7 @@ namespace Reflectis.SDK.Tasks
         [SerializeField, Tooltip("The scene component or project asset that contains a valid graph")]
         protected Object graphContainer = default;
         [Space]
+        [SerializeField] public bool startImmediately = true;
 
         [SerializeField, Tooltip("The hierarchy components to be reverted in case of task system reset")]
         protected List<TaskObjectReverterBase> reverters = new List<TaskObjectReverterBase>();
@@ -179,7 +180,7 @@ namespace Reflectis.SDK.Tasks
                     if (taskDependingOnThis.Dependencies.All(dep => dep.Status == TaskStatus.Completed))
                         taskDependingOnThis.Status = TaskStatus.Completed;
 
-                if (task == Tasks.LastOrDefault() && nextTask==null)
+                if (task == Tasks.LastOrDefault())
                 {
                     lastTaskCompleted?.Invoke();
                 }

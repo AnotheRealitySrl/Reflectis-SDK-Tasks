@@ -139,6 +139,9 @@ namespace Reflectis.SDK.Tasks.UI
             foreach (TaskUIElement taskElement in tasksContainer.GetComponentsInChildren<TaskUIElement>())
                 DestroyImmediate(taskElement.gameObject);
 
+            if (allTasks == null)
+                return;
+
             // Find the first task to do
             TaskNode firstTaskToDo = allTasks
                 .Where(t => t.Status == TaskNode.TaskStatus.Todo)

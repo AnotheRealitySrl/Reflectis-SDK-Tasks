@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 using UnityEngine;
@@ -21,7 +22,7 @@ namespace Reflectis.SDK.Tasks
         private Task task = default;
 
         [NonSerialized]
-        private MonoBehaviour[] behaviours;
+        private List<MonoBehaviour> behaviours = new List<MonoBehaviour>();
 
         ///////////////////////////////////////////////////////////////////////////
         private void Awake()
@@ -29,7 +30,7 @@ namespace Reflectis.SDK.Tasks
             task = GetComponentInParent<Task>();
             behaviours = GetComponents<MonoBehaviour>()
                 .Where(component => component != this && component)
-                .ToArray();
+                .ToList();
         }
 
         ///////////////////////////////////////////////////////////////////////////
@@ -54,6 +55,11 @@ namespace Reflectis.SDK.Tasks
                 if (behaviour)
                     behaviour.enabled = shouldBeEnabled;
             }
+        }
+
+        public void AddToBehaviour(MonoBehaviour behaviour)
+        {
+            behaviours.Add(behaviour);
         }
     }
 }

@@ -1,5 +1,16 @@
 # Release notes
 
+## v2.1.0
+
+### Added
+- `startImmediately` option in the task system.
+- Logic to add items to the task reactor.
+
+### Fixed
+- Null check in `TaskUIManager`.
+- Guard against null `RawImage` in `TaskUIVideoController`.
+- Fixed handling of the last task in the ask system.
+
 ## v2.0.0
 
 ### Changed

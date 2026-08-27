@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Reflectis.SDK.TasksXRKit.XRKitDetectors
 {
-    [CreateAssetMenu(menuName = "Reflectis/SDK-TasksXRKit/XRKitDetectorsConfig", fileName = "XRKitDetectorsConfig")]
+    [CreateAssetMenu(menuName = "Virtuademy/SDK-TasksXRKit/XRKitDetectorsConfig", fileName = "XRKitDetectorsConfig")]
     public class XRKitDetectorsSystemConfig : DetectorsSystemConfig
     {
         public override void AddActivation(GameObject detector)

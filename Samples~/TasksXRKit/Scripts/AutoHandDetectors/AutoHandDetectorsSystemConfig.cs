@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Reflectis.SDK.TasksXRKit.AutoHandDetectors
 {
-    [CreateAssetMenu(menuName = "Reflectis/SDK-TasksXRKit/AutoHandDetectorsConfig", fileName = "AutoHandDetectorsConfig")]
+    [CreateAssetMenu(menuName = "Virtuademy/SDK-TasksXRKit/AutoHandDetectorsConfig", fileName = "AutoHandDetectorsConfig")]
     public class AutoHandDetectorsSystemConfig : DetectorsSystemConfig
     {
         public override void AddActivation(GameObject detector)

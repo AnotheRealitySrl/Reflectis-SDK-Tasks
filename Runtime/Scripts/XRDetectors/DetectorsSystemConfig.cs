@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Reflectis.SDK.Tasks.XRDetectors
 {
-    [CreateAssetMenu(menuName = "Reflectis/SDK-Tasks/DetectorsConfig", fileName = "DetectorsConfig")]
+    [CreateAssetMenu(menuName = "Virtuademy/SDK-Tasks/DetectorsConfig", fileName = "DetectorsConfig")]
     public abstract class DetectorsSystemConfig : ScriptableObject
     {
         public abstract void AddActivation(GameObject detector);

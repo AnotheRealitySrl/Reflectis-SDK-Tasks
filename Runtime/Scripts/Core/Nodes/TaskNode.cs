@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Graphs;
+﻿using Virtuademy.SDK.Graphs;
 
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEngine.UIElements;
 using UnityEngine.Video;
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

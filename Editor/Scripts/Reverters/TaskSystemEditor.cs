@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Reflectis.SDK.Tasks.Editor
+namespace Virtuademy.SDK.Tasks.Editor
 {
     [CustomEditor(typeof(TaskSystem))]
     public class TaskSystemEditor : UnityEditor.Editor

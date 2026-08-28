@@ -1,11 +1,11 @@
 using Photon.Pun;
 using Photon.Realtime;
-using Reflectis.SDK.Tasks;
+using Virtuademy.SDK.Tasks;
 using UnityEngine;
-using static Reflectis.SDK.Tasks.ITasksRPCManager;
+using static Virtuademy.SDK.Tasks.ITasksRPCManager;
 using PhHashtable = ExitGames.Client.Photon.Hashtable;
 
-namespace Reflectis.SDK.TasksNetworked
+namespace Virtuademy.SDK.TasksNetworked
 {
     public class TasksRPCManager : MonoBehaviourPunCallbacks, ITasksRPCManager
     {

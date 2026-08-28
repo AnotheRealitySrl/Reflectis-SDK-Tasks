@@ -2,7 +2,7 @@ using UnityEditor;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.Tasks.Editor
+namespace Virtuademy.SDK.Tasks.Editor
 {
     public class RenameChildrenEditor : EditorWindow
     {

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 using FontStyles = TMPro.FontStyles;
 
-namespace Reflectis.SDK.Tasks.UI
+namespace Virtuademy.SDK.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

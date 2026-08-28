@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     public class AnimatorReverseDetector : MonoBehaviour
     {

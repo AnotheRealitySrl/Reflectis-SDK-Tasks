@@ -1,8 +1,8 @@
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
 
 
-namespace Reflectis.SDK.TasksXRKit.XRKitDetectors
+namespace Virtuademy.SDK.TasksXRKit.XRKitDetectors
 {
     public class XRKitRotationDetector : XRRotationDetector
     {

@@ -1,10 +1,10 @@
 using Autohand;
 
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
 using System.Linq;
 
-namespace Reflectis.SDK.TasksXRKit.AutoHandDetectors
+namespace Virtuademy.SDK.TasksXRKit.AutoHandDetectors
 {
     public class AutoHandGrabberDetector : XRGrabberDetector
     {

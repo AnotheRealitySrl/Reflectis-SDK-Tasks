@@ -1,4 +1,4 @@
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
 
     public delegate void OnTaskComplete();

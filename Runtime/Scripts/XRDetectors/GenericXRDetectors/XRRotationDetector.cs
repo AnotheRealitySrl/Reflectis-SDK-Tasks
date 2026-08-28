@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.SDK.Tasks.XRDetectors
+namespace Virtuademy.SDK.Tasks.XRDetectors
 {
     /// <summary>
     /// Component that fires an event when an object like a lever rotate and reach a certain point.

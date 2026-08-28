@@ -1036,7 +1036,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -1054,7 +1054,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855657
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 2487e1fa-da86-4fe5-8fab-f39b35a7e7b0
         name: Task4
@@ -1085,32 +1085,32 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855658
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855659
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855672
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1537303374}
         portName: next
     - rid: 6592035231311855673
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 827612001}
         portName: input
     - rid: 6592035231311855791
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1803984922}
         portName: input
@@ -1539,7 +1539,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1922011539}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -1619,7 +1619,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855759
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: f228064d-23cf-4a86-84c3-5c5eb2ba1e37
         name: Cube2
@@ -1654,56 +1654,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855760
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855761
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855762
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855763
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855764
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855765
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086598
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1692573889}
         portName: next
     - rid: 6592035293631086599
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
     - rid: 6592035293631086600
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1922011539}
         portName: input
@@ -1759,7 +1759,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2143163465}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -2391,7 +2391,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -2409,7 +2409,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855641
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: c8d80807-95b7-4a66-baf7-a6a1a2c34b6a
         name: Task2
@@ -2440,32 +2440,32 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855666
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1672191872}
         portName: next
     - rid: 6592035231311855668
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1551133404}
         portName: input
     - rid: 6592035276768673793
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1537303374}
         portName: input
     - rid: 6592035293631086642
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1113425505}
         portName: input
     - rid: 6592035293631086643
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 640475923}
         portName: input
@@ -2715,7 +2715,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855679
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: ba50e7e4-d39c-4f0c-9835-7be6af02f810
         name: Button3
@@ -2745,26 +2745,26 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855680
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 6592035231311855681
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035293631086630
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1537303374}
         portName: dependencies
     - rid: 6592035293631086631
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1349950577}
         portName: next
@@ -3513,7 +3513,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2226425432811241472
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: eefc1244-28cf-4c45-a928-9875778fdfc8
         name: Cube6
@@ -3548,56 +3548,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 2226425432811241473
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 2226425432811241474
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 2226425432811241475
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 2226425432811241476
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 2226425432811241477
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 2226425432811241478
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 2226425432811241479
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086610
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1689334498}
         portName: next
     - rid: 6592035293631086611
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
@@ -4835,7 +4835,7 @@ PrefabInstance:
     - target: {fileID: 4498846724921542642, guid: 118745a8130fe4a4aa2d8c4bc45ebdbc,
         type: 3}
       propertyPath: onTrainingEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+      value: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
       objectReference: {fileID: 0}
     - target: {fileID: 4498846724921542642, guid: 118745a8130fe4a4aa2d8c4bc45ebdbc,
         type: 3}
@@ -5536,7 +5536,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1349950577}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -6599,7 +6599,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855823
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: e31cb848-9ec3-4986-be15-33275c52d7ab
         name: Lever
@@ -6631,38 +6631,38 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855824
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855825
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855826
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855827
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855828
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855829
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 825219420}
         portName: dependencies
@@ -6901,7 +6901,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1113425505}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -7028,7 +7028,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -7043,7 +7043,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855674
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 78156578-ca9b-4383-8e82-38ab4984def7
         name: Teleport3
@@ -7072,20 +7072,20 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855675
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 6592035293631086632
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1113425505}
         portName: next
     - rid: 6592035293631086633
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 211798301}
         portName: dependencies
@@ -7165,7 +7165,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 944274797}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -7286,7 +7286,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 789788231}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -7651,7 +7651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -7669,7 +7669,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855694
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: c40b1d40-04ad-4b9c-816c-121ab79389ca
         name: Task6
@@ -7704,56 +7704,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855695
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855696
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855697
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855698
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855730
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1803984922}
         portName: next
     - rid: 6592035231311855787
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: input
     - rid: 6592035231311855788
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1239336327}
         portName: input
     - rid: 6592035293631086627
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 944274797}
         portName: input
     - rid: 6592035293631086628
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 2081359049}
         portName: input
@@ -8141,7 +8141,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855719
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: b076a757-2b09-4f65-9025-f44a2dbaa670
         name: GrabWithRight
@@ -8173,38 +8173,38 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855720
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855721
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855722
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855723
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086619
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1803984922}
         portName: dependencies
     - rid: 6592035293631086620
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1422636523}
         portName: next
@@ -8355,7 +8355,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -8373,7 +8373,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855709
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 2c81823b-ed66-4c0e-a26b-db96d3e5bb66
         name: Task9
@@ -8405,38 +8405,38 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855710
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855711
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855712
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855713
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855795
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1797394417}
         portName: next
     - rid: 6592035231311855840
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 598687512}
         portName: input
@@ -8530,7 +8530,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855660
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 9665f1f9-3220-4430-ae18-5312171c5e0a
         name: SimpleGrab
@@ -8559,20 +8559,20 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855661
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 6592035231311855662
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855688
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 121889328}
         portName: dependencies
@@ -8749,7 +8749,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1942311179}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -9176,7 +9176,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855743
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 8b0986b4-8443-44d5-8449-d608ba8271c9
         name: SnapCylinder
@@ -9210,50 +9210,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855744
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855745
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855746
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855747
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855748
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086615
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1239336327}
         portName: next
     - rid: 6592035293631086616
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 725493467}
         portName: dependencies
     - rid: 6592035293631086617
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 2081359049}
         portName: input
@@ -9670,7 +9670,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 237923284}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -10151,7 +10151,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855773
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: a41cdd53-b376-42c5-a720-91384eff3e18
         name: Cube4
@@ -10186,56 +10186,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855774
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855775
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855776
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855777
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855778
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855779
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086604
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1922011539}
         portName: next
     - rid: 6592035293631086605
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
     - rid: 6592035293631086606
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1689334498}
         portName: input
@@ -10942,7 +10942,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1239336327}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -11057,7 +11057,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2081359049}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -11150,7 +11150,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -11165,7 +11165,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855643
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: ad8eee21-5d48-48b8-b04b-9eb6ccef1ae3
         name: Teleport2
@@ -11194,20 +11194,20 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035293631086638
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1551133404}
         portName: next
     - rid: 6592035293631086639
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 211798301}
         portName: dependencies
     - rid: 6592035293631086640
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 640475923}
         portName: input
@@ -11507,7 +11507,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 827612001}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -11619,7 +11619,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855652
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 75004f1b-f3b3-4c5f-8d6b-620b3af61de1
         name: Button1
@@ -11649,26 +11649,26 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855653
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 6592035231311855654
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855682
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1537303374}
         portName: dependencies
     - rid: 6592035293631086637
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1349950577}
         portName: input
@@ -12345,7 +12345,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855731
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 352e00d6-d1ab-4072-924f-5181f857bbc6
         name: SnapCube
@@ -12378,44 +12378,44 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855732
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855733
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855734
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855735
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855736
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855798
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 725493467}
         portName: dependencies
     - rid: 6592035293631086612
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 944274797}
         portName: input
@@ -12607,7 +12607,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855640
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 6bd519b6-feca-4452-8a0e-b3fb4423d548
         name: Teleport
@@ -12634,8 +12634,8 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855644
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1672191872}
         portName: dependencies
@@ -12793,7 +12793,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855655
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 070f01b6-bd56-41c9-9b68-f21717e28c94
         name: Button2
@@ -12823,26 +12823,26 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855656
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: dependencies
     - rid: 6592035293631086634
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1537303374}
         portName: dependencies
     - rid: 6592035293631086635
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1131133855}
         portName: next
     - rid: 6592035293631086636
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 237923284}
         portName: input
@@ -12912,7 +12912,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 598687512}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -13069,7 +13069,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1689334498}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -13177,7 +13177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1551133404}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -13399,7 +13399,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 162116954}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -13577,7 +13577,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855714
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 1cb0f86e-50b0-4dc4-90b0-11c5851967e8
         name: GrabWithLeft
@@ -13609,38 +13609,38 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855715
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855716
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855717
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855718
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855724
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1803984922}
         portName: dependencies
     - rid: 6592035293631086618
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 789788231}
         portName: input
@@ -13893,7 +13893,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -13923,7 +13923,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855649
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: fc07ab6a-2b16-465b-b7e1-bbf95aa7842d
         name: Task3
@@ -13956,44 +13956,44 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855650
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855651
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855670
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 121889328}
         portName: input
     - rid: 6592035231311855671
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1131133855}
         portName: input
     - rid: 6592035276768673794
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 211798301}
         portName: next
     - rid: 6592035293631086592
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1349950577}
         portName: input
     - rid: 6592035293631086593
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 237923284}
         portName: input
@@ -14048,7 +14048,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1298827252}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -14343,7 +14343,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855642
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 692602b1-fc40-435c-93a1-5618ea548622
         name: Teleport1
@@ -14371,14 +14371,14 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855646
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 211798301}
         portName: dependencies
     - rid: 6592035293631086641
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1113425505}
         portName: input
@@ -14643,7 +14643,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 331065395}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -14862,7 +14862,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1131133855}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -14985,7 +14985,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToFirstWaypoint
         m_Mode: 1
         m_Arguments:
@@ -15003,7 +15003,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855639
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 205e8635-2d15-4f52-bc5b-3f7edf7855e3
         name: Task1
@@ -15031,14 +15031,14 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855789
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 211798301}
         portName: input
     - rid: 6592035231311855790
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1298827252}
         portName: input
@@ -15099,7 +15099,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855780
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 586ff484-7e9f-4d03-8bd4-21b1d1b5f38d
         name: Cube5
@@ -15134,56 +15134,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855781
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855782
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855783
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855784
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855785
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855786
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086607
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1025866344}
         portName: next
     - rid: 6592035293631086608
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
     - rid: 6592035293631086609
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 331065395}
         portName: input
@@ -15244,7 +15244,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855752
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: c0f35a0a-6cca-47bb-a209-23f7cdfc55f5
         name: Cube1
@@ -15278,50 +15278,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855753
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855754
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855755
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855756
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855757
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855758
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855831
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
     - rid: 6592035293631086597
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 162116954}
         portName: input
@@ -15731,7 +15731,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1422636523}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -15925,7 +15925,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -15943,7 +15943,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855704
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 3c42418b-524b-429f-b2f9-f21a1a01d3ec
         name: Task8
@@ -15977,50 +15977,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855705
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855706
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855707
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855708
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855793
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: next
     - rid: 6592035231311855794
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 825219420}
         portName: input
     - rid: 6592035231311855841
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1942311179}
         portName: input
     - rid: 6592035293631086621
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 2143163465}
         portName: input
@@ -16077,7 +16077,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -16095,7 +16095,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855689
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: a5887cbc-27f0-4625-ab72-8f9cb3c5d8d4
         name: Task5
@@ -16129,50 +16129,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855690
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855691
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855692
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855693
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855727
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 121889328}
         portName: next
     - rid: 6592035231311855728
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 725493467}
         portName: input
     - rid: 6592035231311855729
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1422636523}
         portName: input
     - rid: 6592035293631086629
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 789788231}
         portName: input
@@ -16671,7 +16671,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 215696567}
-        m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+        m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
         m_MethodName: MoveToNextWaypoint
         m_Mode: 1
         m_Arguments:
@@ -16701,7 +16701,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855699
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 73e2efd0-9dbf-4dec-86c3-13fc33bbc5b3
         name: Task7
@@ -16739,74 +16739,74 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855700
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855701
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855702
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855703
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855750
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 725493467}
         portName: next
     - rid: 6592035231311855751
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1797394417}
         portName: input
     - rid: 6592035231311855842
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1692573889}
         portName: input
     - rid: 6592035293631086622
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 162116954}
         portName: input
     - rid: 6592035293631086623
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1922011539}
         portName: input
     - rid: 6592035293631086624
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1025866344}
         portName: input
     - rid: 6592035293631086625
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1689334498}
         portName: input
     - rid: 6592035293631086626
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 331065395}
         portName: input
@@ -16867,7 +16867,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855766
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: f015c336-41dd-4354-8fda-f25a2f186501
         name: Cube3
@@ -16902,56 +16902,56 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855767
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855768
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855769
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855770
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855771
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855772
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086601
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 162116954}
         portName: next
     - rid: 6592035293631086602
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1912737809}
         portName: dependencies
     - rid: 6592035293631086603
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1025866344}
         portName: input
@@ -17044,7 +17044,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855807
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 6bc68141-f53b-46ec-b1d1-4def62ff505b
         name: Climb
@@ -17078,50 +17078,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855808
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855809
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855810
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855811
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855812
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855813
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855821
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1797394417}
         portName: dependencies
     - rid: 6592035293631086596
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 2143163465}
         portName: input
@@ -17210,7 +17210,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1692573889}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -17318,7 +17318,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1025866344}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -17991,7 +17991,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToFirstWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18007,7 +18007,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18023,7 +18023,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18039,7 +18039,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18055,7 +18055,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18071,7 +18071,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18087,7 +18087,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18103,7 +18103,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18119,7 +18119,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1009481043}
-          m_TargetAssemblyTypeName: Reflectis.Extra.Runtime.WaypointPositioner, Reflectis.Utilities.Runtime
+          m_TargetAssemblyTypeName: Virtuademy.Extra.Runtime.WaypointPositioner, Virtuademy.Utilities.Runtime
           m_MethodName: MoveToNextWaypoint
           m_Mode: 1
           m_Arguments:
@@ -18202,7 +18202,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855635
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: First Task
         position: {x: 160, y: 118}
@@ -18213,7 +18213,7 @@ MonoBehaviour:
         - {fileID: 1298827252}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855636
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Second Task
         position: {x: 514, y: 118}
@@ -18227,7 +18227,7 @@ MonoBehaviour:
         - {fileID: 640475923}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855800
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Third Task
         position: {x: 895, y: 119}
@@ -18238,7 +18238,7 @@ MonoBehaviour:
         - {fileID: 237923284}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855801
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Fourth Task
         position: {x: 1289, y: 120}
@@ -18247,7 +18247,7 @@ MonoBehaviour:
         - {fileID: 827612001}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855802
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Fifth Task
         position: {x: 1698.0001, y: 119.99998}
@@ -18257,7 +18257,7 @@ MonoBehaviour:
         - {fileID: 789788231}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855803
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Sixth Task
         position: {x: 2088.0002, y: 123}
@@ -18268,7 +18268,7 @@ MonoBehaviour:
         - {fileID: 944274797}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855804
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Seventh Task
         position: {x: 2499, y: 125}
@@ -18282,7 +18282,7 @@ MonoBehaviour:
         - {fileID: 331065395}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855805
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Eight Task
         position: {x: 2947, y: 128}
@@ -18292,7 +18292,7 @@ MonoBehaviour:
         - {fileID: 2143163465}
         graphContainer: {fileID: 2046185759}
     - rid: 6592035231311855806
-      type: {class: GraphBehaviour/GroupImplementation, ns: Reflectis.SDK.Graphs, asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/GroupImplementation, ns: Virtuademy.SDK.Graphs, asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         title: Ninth Task
         position: {x: 3348.0002, y: 131}
@@ -18317,7 +18317,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 412049026}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.UI.TaskUIManager, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.UI.TaskUIManager, Virtuademy.SDK.Tasks
         m_MethodName: DoAfterTaskPrepare
         m_Mode: 1
         m_Arguments:
@@ -18795,7 +18795,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855737
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: 56210193-b3e6-4337-85fd-75f7cf82acdb
         name: SnapSphere
@@ -18828,44 +18828,44 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855738
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855739
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855740
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855741
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855742
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086613
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 944274797}
         portName: next
     - rid: 6592035293631086614
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 725493467}
         portName: dependencies
@@ -18954,7 +18954,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 640475923}
-        m_TargetAssemblyTypeName: Reflectis.SDK.Tasks.Task, Reflectis.SDK.Tasks
+        m_TargetAssemblyTypeName: Virtuademy.SDK.Tasks.Task, Virtuademy.SDK.Tasks
         m_MethodName: CompleteTask
         m_Mode: 1
         m_Arguments:
@@ -19278,7 +19278,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6592035231311855814
-      type: {class: TaskNode, ns: Reflectis.SDK.Tasks, asm: Reflectis.SDK.Tasks}
+      type: {class: TaskNode, ns: Virtuademy.SDK.Tasks, asm: Virtuademy.SDK.Tasks}
       data:
         guid: c30dc0f6-5219-4225-81cd-792b88abd5ad
         name: Teleport
@@ -19312,50 +19312,50 @@ MonoBehaviour:
           m_PersistentCalls:
             m_Calls: []
     - rid: 6592035231311855815
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855816
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855817
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: next
     - rid: 6592035231311855818
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855819
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035231311855820
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 0}
         portName: input
     - rid: 6592035293631086594
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1942311179}
         portName: next
     - rid: 6592035293631086595
-      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Reflectis.SDK.Graphs,
-        asm: Reflectis.SDK.Graphs.Runtime}
+      type: {class: GraphBehaviour/PortReferenceImplementation, ns: Virtuademy.SDK.Graphs,
+        asm: Virtuademy.SDK.Graphs.Runtime}
       data:
         nodeContainer: {fileID: 1797394417}
         portName: dependencies

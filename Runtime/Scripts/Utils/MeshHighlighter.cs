@@ -3,7 +3,7 @@ using System.Linq;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.Tasks.Utils
+namespace Virtuademy.SDK.Tasks.Utils
 {
     public class MeshHighlighter : MonoBehaviour
     {

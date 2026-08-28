@@ -4,10 +4,10 @@ using System.Linq;
 
 using UnityEngine;
 
-using static Reflectis.SDK.Tasks.TaskNode;
+using static Virtuademy.SDK.Tasks.TaskNode;
 
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

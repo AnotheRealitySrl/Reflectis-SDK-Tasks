@@ -1,6 +1,6 @@
 {
-    "name": "Reflectis.SDK.Tasks",
-    "rootNamespace": "Reflectis.SDK.Tasks",
+    "name": "Virtuademy.SDK.Tasks",
+    "rootNamespace": "Virtuademy.SDK.Tasks",
     "references": [
         "GUID:29b9bcb54fb7b804bab83d991ed7034a",
         "GUID:23c385269eb2e5044a0a2686aeeaf762",

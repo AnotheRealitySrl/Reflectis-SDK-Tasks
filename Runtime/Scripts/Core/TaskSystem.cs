@@ -1,4 +1,4 @@
-﻿using Reflectis.SDK.Graphs;
+﻿using Virtuademy.SDK.Graphs;
 
 using System.Collections;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-using static Reflectis.SDK.Tasks.TaskNode;
+using static Virtuademy.SDK.Tasks.TaskNode;
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

@@ -2,7 +2,7 @@ using UnityEditor;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.Tasks.Editor
+namespace Virtuademy.SDK.Tasks.Editor
 {
     [CustomEditor(typeof(TaskObjectReverter)), CanEditMultipleObjects]
     public class TaskObjectReverterEditor : UnityEditor.Editor

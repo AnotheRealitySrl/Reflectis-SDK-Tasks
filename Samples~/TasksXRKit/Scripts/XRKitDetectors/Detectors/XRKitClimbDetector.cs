@@ -1,12 +1,12 @@
-using Reflectis.SDK.Tasks.XRDetectors;
-using Reflectis.SDK.XRKit;
+using Virtuademy.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.XRKit;
 
 using System.Linq;
 
 using UnityEngine.XR.Interaction.Toolkit;
-using ClimbInteractable = Reflectis.SDK.XRKit.ClimbInteractable;
+using ClimbInteractable = Virtuademy.SDK.XRKit.ClimbInteractable;
 
-namespace Reflectis.SDK.TasksXRKit.XRKitDetectors
+namespace Virtuademy.SDK.TasksXRKit.XRKitDetectors
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

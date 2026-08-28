@@ -1,6 +1,6 @@
 {
-  "name": "com.anotherealitysrl.reflectis-sdk-tasks",
-  "displayName": "Reflectis-SDK-Tasks",
+  "name": "com.anotherealitysrl.virtuademy-sdk-tasks",
+  "displayName": "Virtuademy-SDK-Tasks",
   "version": "2.1.0",
   "unity": "2020.1",
   "description": "Reflectis Tasks module",
@@ -10,7 +10,7 @@
   "category": "Unity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnotheRealitySrl/Reflectis-SDK-Tasks"
+    "url": "https://github.com/AnotheRealitySrl/Virtuademy-SDK-Tasks"
   },
   "samples": [
     {

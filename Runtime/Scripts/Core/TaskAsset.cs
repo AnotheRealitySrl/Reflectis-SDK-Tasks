@@ -1,6 +1,6 @@
-﻿using Reflectis.SDK.Graphs;
+﻿using Virtuademy.SDK.Graphs;
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

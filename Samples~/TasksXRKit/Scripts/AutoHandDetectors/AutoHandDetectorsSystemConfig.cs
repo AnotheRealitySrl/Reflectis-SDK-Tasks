@@ -1,8 +1,8 @@
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.TasksXRKit.AutoHandDetectors
+namespace Virtuademy.SDK.TasksXRKit.AutoHandDetectors
 {
     [CreateAssetMenu(menuName = "Virtuademy/SDK-TasksXRKit/AutoHandDetectorsConfig", fileName = "AutoHandDetectorsConfig")]
     public class AutoHandDetectorsSystemConfig : DetectorsSystemConfig

@@ -15,7 +15,7 @@
 
 ### Changed
 
-- Changed package name, from Reflectis-PLG-Tasks to Reflecits-SDK-Tasks, and updated namespaces according to new package name.
+- Changed package name, from Virtuademy-PLG-Tasks to Reflecits-SDK-Tasks, and updated namespaces according to new package name.
 - Replace `Pointer_stringify` with `UTF8ToString` in jslib utilities.
 - Added `isMultiplayer` parameter in `PingMyOnlinePresence` method in `IClientModelSystem`.
 - Changed type parameter in `UpdateSavedAssets` to string.

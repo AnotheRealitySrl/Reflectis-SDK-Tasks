@@ -1,8 +1,8 @@
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
 using UnityEngine;
 
-namespace Reflectis.SDK.TasksXRKit.XRKitDetectors
+namespace Virtuademy.SDK.TasksXRKit.XRKitDetectors
 {
     [CreateAssetMenu(menuName = "Virtuademy/SDK-TasksXRKit/XRKitDetectorsConfig", fileName = "XRKitDetectorsConfig")]
     public class XRKitDetectorsSystemConfig : DetectorsSystemConfig

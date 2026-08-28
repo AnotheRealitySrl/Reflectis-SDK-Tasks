@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     public abstract class TaskObjectReverterBase : MonoBehaviour
     {

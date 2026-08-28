@@ -8,7 +8,7 @@ using UnityEngine.Events;
 using UnityEditor;
 #endif
 
-namespace Reflectis.SDK.Tasks
+namespace Virtuademy.SDK.Tasks
 {
     public class TaskStepSetter : MonoBehaviour
     {

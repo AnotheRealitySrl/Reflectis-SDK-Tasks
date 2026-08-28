@@ -1,8 +1,8 @@
-using Reflectis.SDK.Tasks;
-using static Reflectis.SDK.Tasks.TaskNode;
+using Virtuademy.SDK.Tasks;
+using static Virtuademy.SDK.Tasks.TaskNode;
 using UnityEngine;
 
-namespace Reflectis.SDK.TasksNetworked
+namespace Virtuademy.SDK.TasksNetworked
 {
     public class NetworkedTask : Task
     {

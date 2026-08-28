@@ -1,10 +1,10 @@
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
 using System;
 
 using UnityEngine.XR.Interaction.Toolkit;
 
-namespace Reflectis.SDK.TasksXRKit.XRKitDetectors
+namespace Virtuademy.SDK.TasksXRKit.XRKitDetectors
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

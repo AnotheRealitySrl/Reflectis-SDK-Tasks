@@ -1,8 +1,8 @@
 using Autohand;
 
-using Reflectis.SDK.Tasks.XRDetectors;
+using Virtuademy.SDK.Tasks.XRDetectors;
 
-namespace Reflectis.SDK.TasksXRKit.AutoHandDetectors
+namespace Virtuademy.SDK.TasksXRKit.AutoHandDetectors
 {
     public class AutoHandLeverDetector : XRLeverDetector
     {

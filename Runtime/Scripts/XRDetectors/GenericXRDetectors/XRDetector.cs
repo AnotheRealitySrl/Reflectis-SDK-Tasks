@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Reflectis.SDK.Tasks.XRDetectors
+namespace Virtuademy.SDK.Tasks.XRDetectors
 {
     public abstract class XRDetector : MonoBehaviour
     {

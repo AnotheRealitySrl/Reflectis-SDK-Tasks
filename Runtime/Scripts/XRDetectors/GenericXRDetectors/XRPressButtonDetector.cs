@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.SDK.Tasks.XRDetectors
+namespace Virtuademy.SDK.Tasks.XRDetectors
 {
     public class XRPressButtonDetector : XRDetector
     {

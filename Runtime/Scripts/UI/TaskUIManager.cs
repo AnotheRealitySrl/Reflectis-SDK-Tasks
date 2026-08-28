@@ -10,7 +10,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace Reflectis.SDK.Tasks.UI
+namespace Virtuademy.SDK.Tasks.UI
 {
     ///////////////////////////////////////////////////////////////////////////
     /// <summary>

@@ -1,9 +1,9 @@
-using Reflectis.SDK.Tasks;
+using Virtuademy.SDK.Tasks;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Reflectis.SDK.TasksNetworked
+namespace Virtuademy.SDK.TasksNetworked
 {
     public class NetworkedTaskStepSetter : TaskStepSetter
     {

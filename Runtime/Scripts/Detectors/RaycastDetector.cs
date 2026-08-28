@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Reflectis.SDK.Tasks.Detectors
+namespace Virtuademy.SDK.Tasks.Detectors
 {
     ///////////////////////////////////////////////////////////////////////////
     public class RaycastDetector : MonoBehaviour

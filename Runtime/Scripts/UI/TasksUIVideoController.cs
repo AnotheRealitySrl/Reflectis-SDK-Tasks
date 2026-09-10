@@ -23,7 +23,7 @@ namespace Virtuademy.SDK.Tasks.UI
         /// </summary>
         private VideoPlayer videoPlayer = default;
         private RawImage rawImage;
-        private string sampleTextureFolderPath = "Assets/ReflectisSettings";
+        private string sampleTextureFolderPath = "Assets/Virtuademy/Settings";
 
         ///////////////////////////////////////////////////////////////////////////
         private void Awake()
@@ -65,8 +65,15 @@ namespace Virtuademy.SDK.Tasks.UI
 
             if (!AssetDatabase.IsValidFolder(sampleTextureFolderPath))
             {
-                //Create the folder for the sample texture
-                AssetDatabase.CreateFolder("Assets", "ReflectisSettings");
+                // One level at a time: AssetDatabase.CreateFolder makes a single folder, and
+                // the sample texture now lives two deep, under the one Virtuademy folder a
+                // project is meant to have.
+                if (!AssetDatabase.IsValidFolder("Assets/Virtuademy"))
+                {
+                    AssetDatabase.CreateFolder("Assets", "Virtuademy");
+                }
+
+                AssetDatabase.CreateFolder("Assets/Virtuademy", "Settings");
             }
             if (texture == null)
             {

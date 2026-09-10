@@ -33,5 +33,8 @@
       "description": "Sample scene made with XR Tasks",
       "path": "Samples~/TasksXRKitSampleScene"
     }
-  ]
+  ],
+  "dependencies": {
+    "com.anotherealitysrl.virtuademy-sdk-graphs": "2.0.0"
+  }
 }
